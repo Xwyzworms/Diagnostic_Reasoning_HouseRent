@@ -4,6 +4,7 @@ import scipy
 import util_preprocessing
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pingouin as pg
 
 
 
@@ -62,16 +63,34 @@ def calculateCorrelationCategorical(data):
     profile=util_preprocessing.profileReport(data)
     _getCorellationFromProfillingReport(profile,"cramers")
 
+def calculateChiSquareIndependence(df, val1, val2):
+    crosstab = pd.crosstab(df[val1], df[val2], rownames= NOne, colnames=None)
+    chiSquared = stats.chi2_contingency(crosstab)
+    return chiSquared
+
 def calculateCorrelationMix(data):
     profile=util_preprocessing.profileReport(data)
     _getCorellationFromProfillingReport(profile,"phi_k")
     
 
+def calculateCramers_V(data, col1, col2):
+    crosstab = np.array(pd.crosstab(data[col1], data[col2], rownames=None, colnames=None))
+    chiSquare = chi2_contingency(crosstab)
+    
+    observation = np.sum(crosstab)
+    minimumValue = min(crosstab.shape) - 1
+
+    return chiSquare / (observation * minimumValue)
+
+def calculatePartialCorrelation(dfCorr, col1, col2, covar):
+    pc = pg.partial_corr(dfCorr, x, y, covar)
+    return pc
+
+
+
 def getOutlierValue():
     ...
 
-def calculateChiSquareOfIndependencyCategorical():
-    ...
 
 def calculateChiSquareGoodnesOfFit():
     ...
