@@ -9,6 +9,10 @@
 """
     Utilities For Numeric 
 """
+
+
+
+
 def drawTopNNumericColumn():
     ...
 
