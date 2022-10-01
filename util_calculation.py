@@ -67,7 +67,7 @@ def calculateCorrelationCategorical(data):
     _getCorellationFromProfillingReport(profile,"cramers")
 
 def calculateChiSquareIndependence(df, val1, val2):
-    crosstab = pd.crosstab(df[val1], df[val2], rownames= NOne, colnames=None)
+    crosstab = pd.crosstab(df[val1], df[val2], rownames= None, colnames=None)
     chiSquared = stats.chi2_contingency(crosstab)
     return chiSquared
 
@@ -82,29 +82,9 @@ def calculateCramers_V(data, col1, col2):
     
     observation = np.sum(crosstab)
     minimumValue = min(crosstab.shape) - 1
-
+    print(minimumValue)
     return chiSquare / (observation * minimumValue)
 
-def calculatePartialCorrelation(dfCorr, col1, col2, covar):
-    pc = pg.partial_corr(dfCorr, x, y, covar)
-    return pc
 
-def getOutlierValue():
-    ...
-
-def calculateChiSquareGoodnesOfFit():
-    ...
-
-def calculateTStatistics():
-    ...
-
-def calculateFStatistics():
-    ...
-
-def calculateCI():
-    ...
-
-def calculateAnova():
-    ...
 
 
