@@ -2,6 +2,7 @@ import sklearn
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
 import numpy as np
 import tensorflow as tf
 import pandas as pd
@@ -38,6 +39,18 @@ def doStratifiedCrossvalidation(model,x,y,n_splits=5, shuffle=True, random_state
             print(f1)
     return np.array(acc).mean(), np.array(recall).mean(), np.array(precision).mean(), np.array(f1).mean()
 
+def doFindABestHyperparams(model, X, y,params):
+    x_train, x_test, y_train, Y_test = train_test_split(X,y,test_size=0.2, random_state=2)
+    model = sklearn.model_selection.GridSearchCV(model, params)
+    model.fit(x_train,y_train)   
+    print(model.best_params_) 
+    Y_pred = model.predict(x_test)
+    print(sklearn.metrics.accuracy_score(Y_test, Y_pred))
+    print(sklearn.metrics.recall_score(Y_test, Y_pred,average='micro'))
+    print(sklearn.metrics.precision_score(Y_test, Y_pred,average='micro'))
+    print(sklearn.metrics.f1_score(Y_test, Y_pred,average='micro'))
+
+    
 def getStratifedKFoldScore(list_model,x,y,n_splits=10, shuffle=True, random_state=42):
     dict_score={
         'model_name':[],
@@ -75,24 +88,20 @@ def createMLP(default_neuron=100, dropoutparams=0.3, lr=0.01):
     return model_l
 
 
-
-def doValidation():
-    ...
-
 """
     Supervised Solution
 """
-def prepareSVM(do_hyperParams=False):
+def prepareSVM(c=0.1,do_hyperParams=False):
     if(do_hyperParams):
         params = {
             "C" : (0.1, 1, 0.1)
         }
         model =sklearn.model_selection.GridSearchCV(SVC(), param_grid=params)
         return model
-    return SVC()
+    return SVC(C=c)
 
-def prepareKNN():
-    return KNeighborsClassifier(n_neighbors=5,)
+def prepareKNN(n_neighbors=5):
+    return KNeighborsClassifier(n_neighbors=n_neighbors)
 
 def prepareRandomForest(n_estimator=100, n_depth=3, do_hyperParams = False):
     if(do_hyperParams):
