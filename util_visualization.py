@@ -11,6 +11,7 @@
 """
 
 import plotly.express as px
+import statsmodels.api as sm
 
 
 def drawTopNNumericColumn():
@@ -25,12 +26,14 @@ def drawViolinPlot():
 def drawBoxPlot():
     ...
 
-def drawHistogram(df, col):
-    fig = px.histogram(df, x=col)
+def drawHistogram(df, col, bins):
+    fig = px.histogram(df, x=col,nbins=bins)
     return fig
 
+def drawQQPlot(npArr):
+    fig = sm.qqplot(npArr, line='45')
 def drawHeatmapConfusion(confusionMatrix, title, tickVals ,tickText) :
-    fig = px.imshow(conf, text_auto=True, aspect= "auto")
+    fig = px.imshow(confusionMatrix, text_auto=True, aspect= "auto")
     
     fig.update_layout(
         xaxis=dict(tickmode="array",
