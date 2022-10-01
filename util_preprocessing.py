@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas_profiling import ProfileReport
 import sklearn
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
 from collections import defaultdict
 from sklearn.preprocessing import  LabelEncoder
 import re
@@ -48,14 +48,13 @@ def changeColumnsToNumbers(df, columTobeChanged):
 
 
 def normalizeNumericColumn(df,num_col):
-	scaler = StandardScaler()
+	scaler = MinMaxScaler()
 	df[num_col]=scaler.fit_transform(df[num_col])
 	return df[num_col],scaler
 
 def denormalizeNumericColumn(df,scaler,num_col):
 	df[num_col]=scaler.inverse_transform(df[num_col])
 	return df[num_col]
-
 
 def encodeCategoricalColumn(df,cat_col=[]):
 	if len(df.shape)==1:
@@ -69,4 +68,13 @@ def encodeCategoricalColumn(df,cat_col=[]):
 def decodeCategoricalColumn(df,dictEncoder,cat_col):
 	df[cat_col] = df[cat_col].apply(lambda x: dictEncoder[x.name].inverse_transform(x))
 	return df
+
+def checkNullDataFrame(df):
+
+	percent_missing = df.isnull().sum() * 100 / len(df)
+	missing_value_df = pd.DataFrame({
+									'count': df.isnull().sum(),
+									'percent_missing': percent_missing})
+	return missing_value_df.sort_values('percent_missing', ascending=False)
+
 

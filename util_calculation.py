@@ -24,26 +24,14 @@ def calculateIQR(data,axis=0):
     
 
 def calculateCorrelationNumeric(data):
-    """
-    It takes a dataframe and returns a correlation matrix and a heatmap of the correlation matrix.
-    
-    :param data: The dataframe to be 
-    
-    Method of correlation:
 
-    pearson : standard correlation coefficient (untuk numerik)
-
-    kendall : Kendall Tau correlation coefficient (untuk nominal)
-
-    spearman : Spearman rank correlation (untuk numerik)
-    """
 
     profile=util_preprocessing.profileReport(data)
     _getCorellationFromProfillingReport(profile,"pearson")
     _getCorellationFromProfillingReport(profile,"kendall")
     _getCorellationFromProfillingReport(profile,"spearman")
 
-def _getCorellationFromProfillingReport(profile,keys):
+def _getCorellationFromProfillingReport(profile,keys,annot=True):
     """
     It takes a profile object and a list of keys and returns a correlation matrix and a heatmap 
     
@@ -54,14 +42,14 @@ def _getCorellationFromProfillingReport(profile,keys):
     matrix_cor=profile.description_set["correlations"][keys]
     display(matrix_cor)
     plt.title("Correlation Heatmap for "+keys)
-    dataplot = sns.heatmap(matrix_cor, cmap="YlGnBu", annot=True, fmt=".2f", linewidths=.5, cbar_kws={'label': 'Correlation Coefficient'})
+    dataplot = sns.heatmap(matrix_cor, cmap="YlGnBu", annot=annot, fmt=".2f", linewidths=.5, cbar_kws={'label': 'Correlation Coefficient'})
     display(dataplot)
     plt.show()
         
 
 def calculateCorrelationCategorical(data):
     profile=util_preprocessing.profileReport(data)
-    _getCorellationFromProfillingReport(profile,"cramers")
+    _getCorellationFromProfillingReport(profile,"cramers",)
 
 def calculateChiSquareIndependence(df, val1, val2):
     crosstab = pd.crosstab(df[val1], df[val2], rownames= NOne, colnames=None)
@@ -70,7 +58,7 @@ def calculateChiSquareIndependence(df, val1, val2):
 
 def calculateCorrelationMix(data):
     profile=util_preprocessing.profileReport(data)
-    _getCorellationFromProfillingReport(profile,"phi_k")
+    _getCorellationFromProfillingReport(profile,"phi_k", annot=False)
     
 
 def calculateCramers_V(data, col1, col2):

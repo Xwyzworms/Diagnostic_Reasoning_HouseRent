@@ -19,9 +19,9 @@ def doStratifiedCrossvalidation(model,x,y,n_splits=10, shuffle=True, random_stat
         Y_pred = model.predict(X_test)
 
         acc.append(sklearn.metrics.accuracy_score(Y_test, Y_pred))
-        recall.append(sklearn.metrics.recall_score(Y_test, Y_pred))
-        precision.append(sklearn.metrics.precision_score(Y_test, Y_pred))
-        f1.append(sklearn.metrics.f1_score(Y_test, Y_pred))
+        recall.append(sklearn.metrics.recall_score(Y_test, Y_pred,average='micro'))
+        precision.append(sklearn.metrics.precision_score(Y_test, Y_pred,average='micro'))
+        f1.append(sklearn.metrics.f1_score(Y_test, Y_pred,average='micro'))
 
     return np.array(acc).mean(), np.array(recall).mean(), np.array(precision).mean(), np.array(f1).mean()
 
@@ -59,7 +59,7 @@ def prepareSVM():
     return SVC()
 
 def prepareKNN():
-    return KNeighborsClassifier()
+    return KNeighborsClassifier(n_neighbors=5,)
 
 def prepareRandomForest():
     ...
