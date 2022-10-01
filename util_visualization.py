@@ -43,12 +43,16 @@ def drawHeatmapConfusion(confusionMatrix, title, tickVals ,tickText) :
     return fig
 
 
-def drawCountPlot(df, col1, color, barmode="group",difColor=False,percentage=True,title=''):
+def drawCountPlot(df, col1, color, barmode="group",difColor=False,percentage=False,title='',dropna=True):
+    '''
+    jangan pake percentage untuk dropna=False soalnya masi bug
+    '''
+    
     if difColor:
-        dfGroped = df.groupby([col1,color]).size().reset_index(name="counts")
+        dfGroped = df.groupby([col1,color],dropna=dropna).size().reset_index(name="counts")
     else:
-        dfGroped = df.groupby([col1]).size().reset_index(name="counts")
-
+        dfGroped = df.groupby([col1],dropna=dropna).size().reset_index(name="counts")
+    dfGroped[dfGroped[col1].isna()]=dfGroped[dfGroped[col1].isna()].fillna("NaN")
     if percentage:
         dfGroped['percentage']= df.groupby([col1,color]).size().groupby(level=0).apply(lambda x: round(100 * x / float(x.sum()),2)).values
         dfGroped.columns = [col1,color,'counts','percentage']

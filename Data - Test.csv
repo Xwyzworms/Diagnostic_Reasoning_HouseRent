@@ -1,0 +1,526 @@
+Gender;Bahasa;Inggris;TIK;Matematika;Fisika;Kimia;Biologi;Geografi;Sosiologi;Antropologi;Extra_Kurikuler;Tinggal_Dengan;Status_Kerja;Biaya
+Wanita;61,8;85,9;81,5;72,1;87,2;70,7;62,4;60,8;66;80;Ekskul_5;NA;Bekerja;NA
+Wanita;70,3;85,8;87,6;73,3;68,5;65,5;86,7;77,1;77,6;83;Ekskul_6;NA;Belum;NA
+Pria;72,3;84,9;61,9;62,6;76,6;72,2;76,3;70,2;64;70,1;Ekskul_5;Orang Tua;Bekerja;Orang Tua
+Wanita;73,7;68,3;74,8;87,2;60,7;87,1;84,8;65,2;61;75,1;Ekskul_1;Kos;Belum;NA
+Pria;72,1;78;66,5;75,8;69,3;71,2;70,1;67,4;78,7;70,8;Tidak;NA;Belum;Beasiswa
+Wanita;75,5;60,2;87,3;75,5;87,1;80,2;78,5;68,4;88,3;76,7;Tidak;Orang Tua;Belum;NA
+Wanita;78,8;61;83,6;62,1;63,6;66;80,8;66;82,5;85,7;Ekskul_1;NA;Bekerja;Beasiswa
+Pria;72,2;76,8;84,5;61,5;88,3;73,5;64;85,3;87,7;72,4;Tidak;Orang Tua;Belum;Beasiswa
+Pria;73,7;69,5;60,7;69,8;77,5;75,3;69,6;61,1;88;83,4;Ekskul_4;Kos;Belum;NA
+Pria;60,1;63,9;70,9;70,1;69,8;67,4;65,6;75,6;64,6;70,2;Tidak;Orang Tua;Belum;NA
+Pria;88,1;72,5;67,1;87,6;67,8;65;82,6;67;78,4;64;Ekskul_5;NA;Bekerja;Orang Tua
+Pria;85,1;68,8;63,8;75,6;71,2;74,2;78;78,8;81,7;67,3;Tidak;NA;Belum;Beasiswa
+Wanita;63,6;77,1;73,4;71;69,2;63,5;87;65,2;76,9;61,7;Ekskul_6;Orang Tua;Bekerja;Beasiswa
+Wanita;64,1;76,1;85,5;64,5;71,1;80,5;74,9;73,7;64,4;75;Ekskul_6;Kos;Bekerja;Orang Tua
+Pria;80,7;70,9;75,1;69,7;64,4;84,3;70,3;88,4;88,5;87,8;Ekskul_1;NA;Bekerja;NA
+Pria;87,8;83,1;75,6;82,6;88,3;78,4;86;73;61,7;62,9;Tidak;NA;Bekerja;Beasiswa
+Wanita;79;87,4;69,6;69,1;67,1;82,3;82,7;86,2;76,6;62;Ekskul_4;NA;Bekerja;Beasiswa
+Wanita;76,9;73,7;73,2;88,6;63;75,1;62,7;69,9;66,9;84;Tidak;Kos;Bekerja;Beasiswa
+Wanita;82,7;83,2;72,1;75,5;78;70,9;77,4;67,9;62;60,5;Ekskul_2;Kos;Bekerja;Orang Tua
+Pria;88,4;67,1;82;76;63,1;81,6;60,3;72;62,7;68,5;Ekskul_6;NA;Bekerja;NA
+Pria;69,6;64,8;69,7;70,2;80,5;65,9;67,8;68,3;73,6;75,4;Ekskul_4;Orang Tua;Bekerja;Beasiswa
+Wanita;72,5;70,1;83,9;65,9;75,8;76;60,2;79,7;78,8;84,3;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Pria;87,5;67,2;61,6;75,4;71,4;85,9;83,6;83,8;73,2;84,6;Ekskul_4;Kos;Bekerja;Beasiswa
+Wanita;74,9;77,6;70,5;71;87,1;87,4;63,7;66,8;88,3;65,4;Ekskul_6;NA;Belum;NA
+Pria;62,2;84,1;67,4;83,5;80,7;62;75,5;62,2;71,4;72,8;Tidak;NA;Bekerja;NA
+Pria;77,8;77,2;71,6;88,5;74,7;60,5;82,6;88,6;79,7;74,1;Tidak;Orang Tua;Belum;NA
+Pria;83,3;79,8;73,9;61,9;87;66,8;84,4;60,9;73,2;70,9;Ekskul_6;Kos;Bekerja;Orang Tua
+Pria;61;80,4;68,3;60,8;76,3;80,5;71,5;81,3;78,5;63,8;Ekskul_1;Kos;Belum;NA
+Pria;84;66,4;65,6;82,6;83,4;60,4;70,5;71,9;71,3;80;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Wanita;71,3;84,2;77,3;63,1;69,7;73,6;77,3;78,8;76,9;68,2;Ekskul_3;Orang Tua;Bekerja;Orang Tua
+Pria;74,5;72,6;60,2;67,9;71,1;78,8;84,5;66,2;66;61,5;Ekskul_6;NA;Belum;Beasiswa
+Pria;65,3;72;88,5;85,7;76,8;78;67,6;79,3;85,3;62,3;Ekskul_6;Kos;Bekerja;Orang Tua
+Wanita;65,5;78,1;70,2;78,7;73,9;63,7;85;88;74,7;84,2;Ekskul_3;Orang Tua;Belum;Beasiswa
+Pria;83,7;68,8;61,7;65,4;84,3;85,9;72,6;71;61;84,3;Ekskul_5;Kos;Bekerja;Orang Tua
+Wanita;63,6;86,7;70;75;86,5;86,4;67,8;60,2;66,1;64,9;Ekskul_3;Orang Tua;Belum;Beasiswa
+Wanita;85,3;75,2;77,7;72,2;71,5;65,7;83;74,2;65,5;84;Ekskul_5;Kos;Bekerja;NA
+Wanita;80,4;78,3;72,7;71;85,4;88,1;64,8;79,8;73,4;64,8;Ekskul_1;Kos;Bekerja;Beasiswa
+Wanita;78,7;69,3;68;73,3;86,9;82,7;76,7;66,2;78,5;84,5;Ekskul_3;NA;Belum;Orang Tua
+Wanita;62,3;76,8;78,3;70,5;73,4;80,3;77,2;84,6;76,7;77,3;Tidak;Kos;Bekerja;Beasiswa
+Pria;86,4;75,9;84,7;84,8;70,5;73,3;66;77,6;64,7;76,3;Tidak;Orang Tua;Belum;NA
+Wanita;64,3;74,4;67,1;82,1;87,8;62,9;84,7;87,1;82,6;66,5;Ekskul_1;NA;Belum;Beasiswa
+Pria;61,8;88,1;62,1;66,8;62,4;87;68,3;75,2;87,2;86,3;Ekskul_2;Kos;Bekerja;Beasiswa
+Wanita;74,2;80,4;83,4;62,6;81,8;68,1;79,2;76,7;80,7;77,7;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;70;61;78;60,4;83,1;63,7;62,5;84,5;77,3;76,4;Ekskul_6;NA;Belum;Beasiswa
+Pria;68,6;81,5;88,3;64,1;79,7;71;88,6;61,4;66,4;86,2;Tidak;Orang Tua;Belum;NA
+Wanita;61,3;87,5;68,5;79,1;88,1;88,1;74,6;76,8;68;85,1;Ekskul_1;Orang Tua;Belum;Orang Tua
+Pria;80,9;73,5;67,2;73,9;73,3;72,4;60,3;88,2;69;88,3;Ekskul_3;Kos;Bekerja;Orang Tua
+Wanita;83,2;85,3;70,8;66,9;82,2;85,3;66,1;70,7;72,2;62,5;Ekskul_3;Kos;Bekerja;Orang Tua
+Wanita;64,7;61,6;76,5;72,1;77,8;72,3;85,9;81,1;77,3;78,2;Tidak;Kos;Bekerja;NA
+Wanita;84,3;62,4;87,5;65,5;78,1;74,3;87,1;66;82,5;76,7;Ekskul_3;Kos;Bekerja;Beasiswa
+Wanita;71,5;88;61,5;87,3;63,8;75,5;62,6;85,1;64,1;78,5;Tidak;NA;Bekerja;NA
+Wanita;65,8;84,2;85,2;75,2;62,7;63,9;82,4;83,1;81,9;62,6;Tidak;NA;Bekerja;NA
+Wanita;62,9;87,5;80,1;73,5;65,9;77;85,5;62,7;64,4;76,3;Ekskul_5;NA;Belum;NA
+Wanita;85,8;63,7;74,2;63,1;78,4;83,6;85;73,1;67,5;71;Ekskul_3;Kos;Belum;NA
+Wanita;81;62,2;74,3;61,5;64,1;82,6;67,4;86,9;67,8;76;Ekskul_5;Kos;Belum;Beasiswa
+Pria;63,2;64,9;85,6;73,6;86,5;62,9;84,7;81,2;69,5;87,1;Ekskul_3;Kos;Belum;NA
+Pria;79,6;72,4;80,3;79,7;72,8;61;62,4;83,9;61,1;60,2;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Pria;65,4;64,9;85,9;66,2;70,5;81,7;80,2;68,5;74,2;68;Ekskul_2;Kos;Belum;Beasiswa
+Wanita;63,4;87,1;64,4;66;60,2;75,1;67,5;60,9;76,8;75,1;Ekskul_2;Orang Tua;Belum;NA
+Pria;77,5;64,7;77,7;66,7;60,1;60,4;86,8;71;69,8;86;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Wanita;60,4;66,1;82,5;67,1;77,5;84,1;60,1;88,5;71;70,9;Tidak;Kos;Belum;NA
+Pria;71,2;75;74,2;65;67,1;81,5;76,8;86,2;77,4;82,5;Ekskul_6;Orang Tua;Belum;Orang Tua
+Pria;84,9;72,6;88,2;62,4;67,6;72,2;67,3;70,1;83,9;72;Ekskul_3;Orang Tua;Bekerja;Orang Tua
+Pria;68,8;80,7;68,8;84,4;76,4;72,2;76,9;66,7;81;77;Tidak;Orang Tua;Bekerja;Orang Tua
+Wanita;84;84,1;72,3;69,6;62,8;78,2;63,6;70,9;74;87;Ekskul_4;Orang Tua;Belum;Beasiswa
+Wanita;87,8;69,2;82;81,3;75,7;77,2;71,1;77,9;78,3;78,3;Tidak;Kos;Belum;Beasiswa
+Wanita;76,4;86,7;61,1;64,4;80,7;73,4;84,8;87;62,1;72,5;Tidak;Orang Tua;Belum;Orang Tua
+Pria;70,6;80;83,6;79,4;77,7;85,4;75,1;71,1;87,4;83,1;Ekskul_4;NA;Bekerja;Beasiswa
+Wanita;65,7;82;88,2;60,2;78,5;81,8;64,6;80,1;87,1;84,1;Ekskul_6;Kos;Bekerja;NA
+Pria;87,1;66,8;67;71,7;84,5;83,1;73,9;78,8;81,6;61,1;Ekskul_3;Kos;Belum;Orang Tua
+Wanita;87,2;81,9;87,3;62,7;66,4;84,5;67,3;84,3;75;86,9;Tidak;Kos;Belum;NA
+Wanita;70,1;69,8;88,1;71,3;76,2;71,4;62,4;84,7;60,1;86,8;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Pria;86,1;75,6;73,5;73,8;72,5;65,2;67,1;69,8;75,1;79,8;Tidak;Orang Tua;Bekerja;Beasiswa
+Pria;70,8;69,2;62,2;60,9;79,8;72,8;60,7;84,7;80,9;87;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;65,9;72,3;76,2;73,3;68;79,8;80,2;70,9;78,8;64,9;Ekskul_6;Kos;Bekerja;NA
+Wanita;74,7;69,6;61,9;79,2;77,3;87,1;81;77,4;64,3;68,4;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Wanita;66,8;63,3;78,1;60,4;85,8;77,5;62,4;66,3;85,7;61,2;Ekskul_3;NA;Belum;Beasiswa
+Wanita;82,8;66,1;81,7;77,9;80,5;64,3;73,9;62,4;69,4;65,9;Ekskul_1;NA;Belum;Beasiswa
+Pria;82,3;66,8;77,9;77;73,3;70,7;81,4;68,7;69,5;82,3;Ekskul_3;Kos;Belum;NA
+Wanita;78,7;84,4;83,5;88,3;87,2;75,8;85,5;82,6;72,9;63,9;Ekskul_2;Orang Tua;Belum;Beasiswa
+Wanita;84,7;74,9;68,1;70,7;69,9;87,6;78,2;78,6;70,4;77;Ekskul_2;Kos;Bekerja;Beasiswa
+Wanita;62,8;73,6;84,7;61;85,4;74,7;74,1;83,1;64,3;65,2;Ekskul_1;Orang Tua;Bekerja;NA
+Wanita;72,2;73,3;84;73,8;73,9;75,1;81,2;71,9;63,3;63,6;Ekskul_4;NA;Belum;Beasiswa
+Wanita;63,4;83,1;70,7;80,8;65,2;87,1;68,2;62,5;65,3;77,8;Tidak;Kos;Belum;Orang Tua
+Wanita;81,3;80,8;84,5;61,5;86,2;77,3;61,1;88;84,3;64,3;Ekskul_5;Orang Tua;Bekerja;Orang Tua
+Wanita;62,8;64,6;68,1;63,1;64,7;78,9;69,3;64,8;64,2;67,9;Ekskul_4;Orang Tua;Bekerja;Beasiswa
+Wanita;72,6;77,7;62,1;79,3;84;84,2;73,5;88,4;63,2;69,3;Ekskul_3;NA;Bekerja;Beasiswa
+Wanita;79,7;69,5;80;77,8;69,6;80,9;62,5;86,2;82,1;71,5;Ekskul_4;NA;Bekerja;Beasiswa
+Wanita;80,8;67,5;65,9;86,5;64,2;67,4;62,7;72,8;64,2;71;Ekskul_1;NA;Belum;NA
+Pria;66,5;85,2;71,8;69,3;66,4;85,6;68,1;74,3;78,6;78,9;Ekskul_5;NA;Bekerja;Beasiswa
+Pria;83,1;85;72,1;71,2;86,7;75,7;75,9;62,2;85,6;61,9;Ekskul_5;Orang Tua;Belum;Orang Tua
+Pria;76,9;76,9;88,3;82,5;88,1;71,8;78,1;70,5;75,3;75,8;Tidak;Orang Tua;Bekerja;NA
+Pria;65,8;72,4;69,5;63,9;77,8;75,3;84,3;68,8;69,2;62,1;Ekskul_2;Kos;Bekerja;Orang Tua
+Wanita;79;61,2;68,6;87,5;73,6;70;88,6;77,9;71,4;82,3;Ekskul_5;Kos;Belum;Orang Tua
+Wanita;80,6;72,1;80,4;65,8;67,1;86,6;60,1;65,1;71,6;75,5;Ekskul_5;Orang Tua;Bekerja;Orang Tua
+Pria;87,1;84,1;68,3;68,5;82,4;87,8;61,7;60,2;60,7;72,8;Ekskul_1;Orang Tua;Belum;NA
+Pria;61,7;72,6;67,7;87,8;68,2;78,8;60,4;69,4;61;85,1;Ekskul_1;Kos;Bekerja;Beasiswa
+Wanita;80,9;86,8;74,9;84,4;71,1;86,3;87,8;74,5;65,2;75,9;Ekskul_2;Orang Tua;Belum;Orang Tua
+Wanita;82,2;69,3;65,9;80,2;67,7;80,8;66,3;74,5;74,8;72,4;Ekskul_6;Kos;Belum;Orang Tua
+Wanita;75,6;78,5;67,2;84;85;76;66,5;73,5;74,9;71,6;Ekskul_4;NA;Belum;NA
+Pria;83,5;75,6;64,6;83,1;81,8;78,8;82,2;71,2;74,4;88;Ekskul_2;Kos;Bekerja;Beasiswa
+Wanita;70,8;87,8;70,3;74,5;70,5;70,9;80,9;84,2;69,6;69,1;Tidak;Kos;Bekerja;Beasiswa
+Pria;79,6;69,9;63,6;85,3;72,7;75,9;85,7;72;70,3;61,8;Tidak;NA;Bekerja;Orang Tua
+Wanita;68,7;88,5;60,4;83,8;61,2;64,7;60,6;84,5;78,9;72,7;Ekskul_3;NA;Belum;NA
+Pria;78;61,2;65,4;85,5;81,5;67,2;66,3;75,9;71,9;79,6;Ekskul_1;Orang Tua;Belum;Beasiswa
+Pria;76,8;85,5;75,7;69,7;71,8;83,1;64,7;76,8;69,5;86;Ekskul_2;NA;Bekerja;Orang Tua
+Pria;68,8;67,4;65,3;64,9;76,3;63,5;63,7;73,7;67,9;68,6;Ekskul_2;Orang Tua;Belum;Beasiswa
+Pria;84,7;75,1;79,4;69,6;72;77,4;69,4;61,4;64,8;87,1;Ekskul_2;Orang Tua;Bekerja;NA
+Pria;61,6;76,8;86,2;86,5;70,9;87,3;67;70,9;80,3;81,7;Ekskul_6;Orang Tua;Belum;NA
+Wanita;66,2;72,5;82,5;70,2;60,1;66,1;60,3;72,8;87,3;85,7;Ekskul_1;Orang Tua;Bekerja;Orang Tua
+Wanita;78,8;72,7;73,5;76;76;67,1;62,5;61,3;77,4;NA;Ekskul_5;Kos;Belum;Beasiswa
+Pria;67,1;72,6;69,9;64,7;81,4;72,4;61,5;65,9;72;86;Ekskul_3;Kos;Belum;NA
+Wanita;85,5;79,9;65,1;83,3;61,6;87,7;72,6;83,4;68;70,8;Ekskul_6;Kos;Bekerja;NA
+Pria;75,9;66,8;86,2;86,4;70,4;82,6;69,1;79;62,4;65,7;Ekskul_1;Orang Tua;Belum;Beasiswa
+Pria;61,9;70,1;62,5;60,7;73,5;63,1;78,7;71,1;76,1;67,7;Ekskul_4;Kos;Belum;Orang Tua
+Wanita;81,3;78,7;76,6;77;87,5;72,4;66,8;71,2;69;85,7;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;60,5;65,1;63,4;79,4;88,2;72,9;82;85,2;82,9;75,7;Tidak;NA;Belum;Orang Tua
+Pria;63,5;62,3;78,7;61,4;76,3;85,5;76,5;78,7;68,7;72,2;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Pria;78,1;70,8;88,5;86,4;71,9;65,2;74;73,1;82,6;65,7;Ekskul_6;Kos;Belum;Orang Tua
+Wanita;67,3;86,4;62,3;71,6;77,1;68,7;61,8;66,4;70,4;69,2;Ekskul_6;NA;Belum;Orang Tua
+Wanita;85,3;67,4;71,4;88,6;73,7;70,1;79,8;68,9;80,5;66,8;Ekskul_5;Orang Tua;Bekerja;NA
+Wanita;66,7;69,8;88,4;84,4;78,3;83,6;72,9;80,6;78,7;81,2;Ekskul_4;Kos;Bekerja;Beasiswa
+Pria;69,4;70,4;85,2;60,7;75,7;81;76;71,9;63,5;82,8;Ekskul_6;Orang Tua;Bekerja;Beasiswa
+Wanita;77,5;71,9;85,9;60,9;60,5;62;65,3;67,8;62;71,3;Ekskul_3;Orang Tua;Bekerja;NA
+Wanita;85,5;86;80,1;87,1;85;68,6;63,2;82,3;63,5;66;Ekskul_6;NA;Bekerja;Beasiswa
+Wanita;81,5;69,3;65,4;78,1;72,7;78;66,7;76,6;79,1;66;Ekskul_3;Orang Tua;Belum;Orang Tua
+Pria;81,8;60,9;67,5;64,9;72,4;62,2;86,5;61,6;63,7;72,8;Ekskul_2;Orang Tua;Belum;Beasiswa
+Wanita;66,8;66,4;78,2;73,8;73;79,8;81;79,8;81,1;74,9;Ekskul_6;NA;Belum;NA
+Wanita;79,5;75,1;72,2;72;81,2;78,8;67,7;85;87,6;84,4;Ekskul_6;Kos;Bekerja;Beasiswa
+Pria;64,2;77,9;74,1;66,9;70,3;72,7;65,5;74,1;63,5;87;Ekskul_5;Kos;Belum;Orang Tua
+Pria;87,5;74,6;65,6;62;85,3;60,2;67,5;71,4;81,6;60,6;Ekskul_6;NA;Bekerja;Beasiswa
+Pria;67,8;78,9;63,3;69,8;77,4;84,8;61;68;80;81,4;Tidak;Orang Tua;Belum;Beasiswa
+Wanita;60,5;80,5;71,6;72,3;73,9;88,2;73,9;69,9;70,4;86,1;Tidak;NA;Bekerja;Beasiswa
+Pria;85,6;66;84,2;61,5;75,8;83,8;88,3;81,2;81,7;85,6;Tidak;Orang Tua;Belum;NA
+Wanita;61,9;84,9;81,3;76,4;70,5;73,9;79,9;87,5;67,1;65,9;Ekskul_3;Orang Tua;Bekerja;Beasiswa
+Pria;76,1;78,7;83,8;81,9;86,7;77,7;81,2;87,9;83,3;85,4;Ekskul_5;NA;Bekerja;Beasiswa
+Wanita;85,3;62,8;65,6;60,5;75,8;76;68,7;78,1;75,7;70,4;Ekskul_2;Kos;Bekerja;Orang Tua
+Wanita;64,9;65,5;69,8;80,7;68,8;70,1;62,5;60,6;87,5;75,4;Ekskul_4;Orang Tua;Belum;Orang Tua
+Wanita;76,8;71,1;72,9;62;80,6;68,3;70,1;86,6;86,5;73,3;Tidak;NA;Bekerja;Orang Tua
+Wanita;62;67,9;80,7;82,1;62,4;71,9;74,3;78;63,2;65,2;Ekskul_3;Kos;Belum;Orang Tua
+Wanita;84,3;60,5;77,9;75,9;78,7;64,9;78,1;74,8;62,9;66,5;Ekskul_1;NA;Bekerja;Beasiswa
+Pria;85;70,5;61,7;79,8;86,8;61,6;60,1;69,6;74,9;69;Ekskul_3;Kos;Belum;Beasiswa
+Wanita;75,4;86,9;66,9;77,2;81,1;71,6;73,6;75,1;67,4;69,4;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Pria;63,2;77,3;68,5;81,8;79,4;84,7;86,1;83,7;64,7;66;Ekskul_6;Orang Tua;Belum;Orang Tua
+Pria;79,4;67;82,3;85,7;66,7;86,7;61;67,8;88,4;61,6;Ekskul_5;Kos;Belum;Orang Tua
+Wanita;61,4;77;63,2;88;74,5;61;70,8;62,7;84,7;68,6;Ekskul_3;NA;Belum;Orang Tua
+Wanita;69,3;86,8;75,1;77,4;78,3;77;68,4;79,1;69,1;81,6;Ekskul_6;Orang Tua;Belum;NA
+Wanita;61,7;84,8;79,8;60,5;63,3;85,8;85;65,7;87,6;70,3;Ekskul_6;Orang Tua;Belum;Beasiswa
+Pria;88,1;77,2;74,9;81,5;82,3;60,4;87,3;79,7;82,8;70,3;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;85,1;78,5;70,2;67,8;73,8;67,4;60,2;78,3;63,2;67,1;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Wanita;60,2;71,9;73,9;78,9;75,8;63,1;63,9;65,3;84,4;74,4;Ekskul_1;Orang Tua;Bekerja;Orang Tua
+Pria;70,8;62,4;65,7;88,3;66,7;63;78,8;71,5;69,6;65,9;Ekskul_3;Kos;Belum;NA
+Pria;86,5;87,3;68,6;77,9;78,7;82,1;78,7;70,9;75,9;67,9;Tidak;NA;Belum;Beasiswa
+Wanita;79,1;76,4;70,4;63,7;82,5;61;74,5;82,5;63,7;86,2;Ekskul_1;NA;Belum;NA
+Wanita;63,5;86,1;79,5;73,7;78,2;73,5;81,7;73,7;88;81,5;Ekskul_2;Orang Tua;Bekerja;NA
+Wanita;80,5;70,2;84,9;75,4;75,7;70,2;64,3;70,5;72,2;69,5;Ekskul_3;Kos;Bekerja;NA
+Wanita;69,5;71,3;75,4;86,8;72,6;82,2;79,5;63,1;72,6;61,4;Ekskul_4;NA;Bekerja;NA
+Wanita;69,9;66,8;74;81,9;63,4;82,1;60,7;60,7;75,2;78,5;Tidak;Orang Tua;Belum;Orang Tua
+Wanita;63,3;79,2;64,4;78,4;61,4;66,1;77,7;77,3;69,8;64,9;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Wanita;68,4;64,4;78,4;82,2;62,6;60,4;71;74,7;70,8;68,7;Ekskul_5;Kos;Belum;Orang Tua
+Pria;76,4;80,2;79,6;74,9;77,1;60,3;76;61,6;79,5;85,2;Tidak;Orang Tua;Bekerja;Orang Tua
+Wanita;81,2;88,5;80;86,9;62,2;82,5;62,8;85;83,4;75,6;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Wanita;76,5;70,3;80,6;66,8;61,5;79,6;68,8;64,2;75,4;64,7;Ekskul_5;Kos;Belum;NA
+Wanita;80,8;72,4;70,9;63,2;85,5;73,7;62,3;61;64,7;84,1;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Pria;75,5;76,9;80,9;69,9;67,4;84,6;69,7;70,1;70;72,4;Tidak;NA;Belum;Beasiswa
+Pria;64,4;82,7;NA;77,6;87;76;78,4;86;71,2;73;Ekskul_1;Kos;Bekerja;Orang Tua
+Wanita;68,7;79;69;63,8;62,6;77,9;72,9;73,6;77,4;87,1;Ekskul_6;NA;Belum;Beasiswa
+Pria;65,8;65,2;78,6;70,5;73,8;77,3;81,2;62,5;64,5;64,1;Ekskul_3;Kos;Bekerja;NA
+Wanita;86,9;85,8;82,4;71,5;79,7;75,9;76,8;75,6;87,2;72,8;Tidak;Orang Tua;Belum;Beasiswa
+Pria;69,1;79,5;76,3;64,5;77,5;79,6;69,4;88,1;62,1;85,8;Ekskul_2;Kos;Bekerja;Beasiswa
+Pria;74,3;71,6;76,9;73,5;62,6;81,8;88,4;84,7;64,6;77,3;Ekskul_1;Orang Tua;Bekerja;NA
+Wanita;70,3;77,6;63,4;72,6;70,9;67,6;62,3;73;73,4;62,6;Ekskul_5;Kos;Bekerja;NA
+Wanita;62,6;63,2;67,9;72,1;61,8;73,9;76,7;88,5;64,6;78,2;Ekskul_3;Kos;Belum;Beasiswa
+Pria;67,8;62,8;86,4;62,3;70,2;70,1;82,6;68,1;75;85,2;Ekskul_6;Kos;Belum;Orang Tua
+Wanita;84,4;84,2;79,1;83,5;82,3;69,7;81,2;62;73,9;78,6;Ekskul_2;NA;Bekerja;Orang Tua
+Pria;64,4;67,2;72;85,6;74,1;77,9;84,8;77,3;77,3;62,5;Ekskul_2;Kos;Belum;NA
+Pria;83,7;88,2;63;76,3;66,9;62,6;72;69,9;81,4;70,4;Tidak;Kos;Bekerja;NA
+Wanita;79,9;73,8;68,6;77,9;72,7;78;66,3;69,6;85;72,6;Ekskul_1;Kos;Belum;Beasiswa
+Pria;63,1;83,2;64,3;83,7;75,5;77,9;82,4;65,4;64,6;70,9;Ekskul_6;Kos;Belum;Orang Tua
+Pria;72,7;65,5;82,5;83,8;63,4;85,2;66,5;64,2;85,7;78,5;Ekskul_1;NA;Belum;Orang Tua
+Wanita;83,6;76,2;77,4;76,4;70,2;78,2;76,2;86,9;86,5;65,6;Ekskul_1;Orang Tua;Bekerja;Orang Tua
+Wanita;73,1;70,6;75,2;73;74,8;77,6;79,7;87,6;60,8;61,6;Ekskul_2;NA;Bekerja;NA
+Wanita;77,8;65,4;64,2;64,2;74,3;72,7;82,6;71,7;88;73,2;Ekskul_6;Orang Tua;Belum;Orang Tua
+Wanita;66,3;66,3;66,6;70,4;63;63;69,4;65,5;85,6;76,3;Ekskul_3;Kos;Bekerja;NA
+Pria;86,8;80,5;83,1;62,6;60,4;70,3;66,3;66,1;72,3;82,8;Tidak;Kos;Belum;Beasiswa
+Wanita;70,6;64,6;73,9;70,5;74,7;65,8;61,1;80,2;84,4;75,3;Tidak;Orang Tua;Belum;Orang Tua
+Wanita;64,9;61,3;66,5;79,9;82;60,6;62,5;78,8;81,3;83,7;Ekskul_2;NA;Bekerja;Beasiswa
+Wanita;70,7;87,1;63,6;69,2;70,6;76,9;70,3;70,9;86,7;60,6;Ekskul_6;Orang Tua;Belum;NA
+Wanita;79,8;82,9;85,9;81,9;65,9;83;85,3;69,8;82,8;81,1;Ekskul_4;NA;Belum;Beasiswa
+Pria;74,3;72;82,9;78,5;84,2;86,1;72,5;71,6;68,1;72,8;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Wanita;70,1;73,7;78,6;60,2;73,6;67,3;77,9;86,1;74,5;76,7;Tidak;Kos;Belum;NA
+Pria;74;60,9;74,9;87;65,7;72,4;64,4;62,8;79,6;81,2;Ekskul_5;NA;Belum;Orang Tua
+Pria;83,9;69,8;71,4;70;62,4;67,1;79,5;65,9;81;77,5;Ekskul_4;Kos;Belum;NA
+Pria;82,7;70;69,6;63,1;63,2;70,3;81,9;79,7;74,6;87,9;Tidak;NA;Bekerja;NA
+Wanita;60,1;87,8;NA;73,5;74;81,3;66,6;78,7;80,3;73,3;Ekskul_5;Kos;Bekerja;NA
+Pria;68,1;68;86,2;70,7;72,6;69,3;63,1;62,1;83,3;69,1;Ekskul_3;NA;Bekerja;NA
+Pria;68,6;73,3;82,7;65,7;82,1;86,4;76,6;88,4;71;74,5;Ekskul_4;Kos;Belum;NA
+Wanita;66,9;60,8;63,1;71,6;83,5;60,6;66,3;76,9;78,7;77,6;Tidak;Kos;Bekerja;Beasiswa
+Wanita;67,7;82,9;87,4;84,7;77,3;62,7;74,3;75,5;79,5;63,8;Ekskul_5;Orang Tua;Belum;Orang Tua
+Pria;78,9;71,1;75,7;86;82,8;76,5;61;82;70;76,3;Ekskul_2;Orang Tua;Bekerja;NA
+Pria;79,6;66;69,7;78,8;87,7;64,5;77,1;65,3;83,8;63,8;Tidak;Kos;Bekerja;Beasiswa
+Wanita;80,6;84,1;79,9;81,5;87,6;66;79,4;73,3;74,9;78,8;Tidak;NA;Belum;Beasiswa
+Wanita;67,1;87;65,5;64,7;78,7;66,1;68,5;75,7;75,6;83,2;Ekskul_2;Kos;Belum;Orang Tua
+Pria;75,1;72,1;87,5;74,8;75,1;69,4;64,9;81,4;60,9;84,8;Ekskul_5;Orang Tua;Belum;NA
+Pria;62,1;87,3;86,5;73,5;70,6;67,6;79,6;86,4;68,9;78,3;Ekskul_1;NA;Bekerja;Orang Tua
+Wanita;79,4;63,5;84,1;82,6;83,7;88;67,4;81;79,9;61,1;Ekskul_1;Kos;Belum;NA
+Wanita;70,8;67,1;75,6;85,4;64,8;70;78,5;86,8;60,8;76,3;Ekskul_3;Kos;Bekerja;Beasiswa
+Pria;74,7;68,1;79,9;70,3;69,9;85,1;61,7;78,2;77,4;75,8;Ekskul_4;NA;Bekerja;Orang Tua
+Wanita;85,2;81,6;87,2;63,6;87,3;82,7;73;83,3;61,9;82,9;Tidak;NA;Bekerja;Beasiswa
+Wanita;84,3;85;60,1;82;80,5;83;71;83,3;71,3;77,4;Ekskul_2;Kos;Belum;NA
+Wanita;62,9;70,3;78,2;81,7;61,5;82,8;81,4;65,5;73,3;67,2;Ekskul_2;Orang Tua;Belum;Orang Tua
+Pria;87,6;81,7;77;60,7;62,5;83;84,2;72,3;88,6;72,8;Ekskul_6;Kos;Belum;NA
+Pria;72,2;86,7;76,3;66,8;74,5;84,7;65;74;68,3;74,8;Ekskul_6;NA;Bekerja;Orang Tua
+Wanita;77,8;83,7;80,6;76,9;61;84,3;77,7;88,1;80,1;62,3;Ekskul_6;NA;Bekerja;NA
+Wanita;64,5;74,9;87,7;77,1;73,9;78,4;74,1;82,7;72,3;78,4;Tidak;Kos;Bekerja;Beasiswa
+Wanita;70,8;65,4;62,2;65;67;65,6;69,4;80,4;76,9;80,9;Ekskul_6;NA;Bekerja;NA
+Wanita;88,6;87,9;83,5;83,3;74,4;88,5;62,8;86,9;63,7;83,1;Ekskul_2;Orang Tua;Belum;Orang Tua
+Wanita;65,3;88,4;75,3;60,2;80;84,4;81;73,5;82,6;88;Ekskul_4;Kos;Bekerja;Orang Tua
+Wanita;76,5;85,2;78,1;64,4;74,7;64,3;72,5;80,2;73,9;63,8;Ekskul_1;NA;Belum;Orang Tua
+Pria;71,6;80;87,2;68,6;69,7;78,2;78,7;72,5;69,3;78,3;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Pria;61,8;71;76,4;66,3;71,2;88,2;72,3;73,7;71,2;82,7;Ekskul_2;Orang Tua;Belum;NA
+Pria;61,4;62,4;82,2;79,8;63,1;68,9;61,5;68,7;64,7;60,9;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;67,9;61;85,7;76,9;75,9;80,4;87,7;83,7;77,7;76,9;Ekskul_2;NA;Bekerja;Beasiswa
+Pria;74,1;88,5;65,1;64,1;77,6;79,6;74,7;71;82,9;86,2;Ekskul_2;Orang Tua;Belum;NA
+Wanita;64,9;61;83,5;78,5;76,6;68,8;62,3;80,9;70,6;62,3;Ekskul_5;Orang Tua;Bekerja;NA
+Wanita;86,5;67,9;61,3;66,1;62,8;72,8;64,7;71,6;76;73;Tidak;NA;Bekerja;Beasiswa
+Pria;61,5;85,4;84,7;86;69,2;82,5;87;64,9;84,7;85,6;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;83,8;69,1;62,5;84,7;62,7;64,7;69,5;70,7;60,6;69,3;Ekskul_4;NA;Belum;NA
+Wanita;78,1;78,5;68,4;72,3;64,6;65;77,4;70,2;67,4;76,8;Ekskul_1;Orang Tua;Belum;Orang Tua
+Pria;66,3;77,3;82,1;85,5;69,4;75,6;88,1;74,7;66,8;68,8;Tidak;NA;Bekerja;NA
+Pria;64,4;87,3;62,2;76,2;83;79,6;60,2;68,4;73,2;85,4;Ekskul_4;Orang Tua;Belum;Orang Tua
+Pria;65,5;87,8;74,2;80,2;82,5;61,9;73,3;70,4;82,2;70,6;Ekskul_2;Orang Tua;Bekerja;Orang Tua
+Pria;88,6;74,4;64;60,6;84,5;78,7;62,1;83,5;76;77;Ekskul_5;Kos;Belum;Beasiswa
+Wanita;62,5;82;87;87,4;68,3;86,9;73,2;73,8;62,4;68,8;Ekskul_3;Kos;Belum;Beasiswa
+Pria;66,1;69,5;79;78,8;67,6;81,4;61,9;85;79,7;77,2;Ekskul_4;Orang Tua;Bekerja;NA
+Pria;67,1;70,1;86;88,2;77,7;87,5;60,5;65,4;86,5;69;Ekskul_4;NA;Bekerja;Beasiswa
+Pria;72,2;88,2;60,7;86,7;62,4;72,3;88,2;83,7;61,3;66,6;Ekskul_6;NA;Belum;Beasiswa
+Pria;83,3;74,1;85,6;66;60,1;61,3;66,2;75,9;71,4;76,9;Ekskul_3;Kos;Belum;Orang Tua
+Pria;81,7;67,6;80,2;65,4;60,1;77,4;69,2;87,8;65,1;68,6;Ekskul_2;NA;Bekerja;NA
+Wanita;64,2;83,4;86,5;68,8;71,5;71,3;79;77,9;65,5;84;Ekskul_3;Kos;Bekerja;NA
+Wanita;80,1;77,7;66,9;86,6;60,9;84,9;67,1;73,6;64,3;83,7;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Wanita;73,7;68,3;61,9;67,1;73,3;84,9;86,4;71,4;69,1;83,6;Ekskul_6;Kos;Bekerja;Beasiswa
+Pria;79,3;76,9;65,8;70,3;60,2;61,2;71,8;76,8;74,1;86,5;Ekskul_2;NA;Belum;Beasiswa
+Pria;74,4;81,6;73,6;83,2;80,7;80,7;76,6;60,3;62,2;69,9;Ekskul_1;Orang Tua;Bekerja;Orang Tua
+Wanita;79,9;87,4;75,8;60,7;81,2;60,6;84,4;81,2;73,7;83,3;Tidak;NA;Belum;Beasiswa
+Wanita;71,3;60,1;78,6;62,9;85,9;77,2;66,3;72,8;65,9;76,4;Ekskul_6;NA;Belum;NA
+Pria;74,9;64,9;61,9;85,5;79,6;60,3;87,2;83,8;62,7;78,3;Ekskul_5;Orang Tua;Belum;Orang Tua
+Pria;86,5;72,3;68,7;72,3;82,4;64,1;83,3;77,2;70,7;61,4;Ekskul_4;Orang Tua;Belum;Orang Tua
+Pria;75,4;75,5;72;87,3;68,5;84,1;67;65,5;74;85,5;Tidak;Orang Tua;Belum;NA
+Wanita;67,2;61,1;61,1;87,1;67,8;77,3;77,6;74,4;72,2;76;Ekskul_4;NA;Bekerja;Orang Tua
+Wanita;77,4;78,3;71,3;71,5;66,9;84,1;71,8;80,3;76,7;68,3;Ekskul_1;Orang Tua;Belum;Beasiswa
+Wanita;62,7;87,7;64,8;63,4;70,5;77,4;87,9;85,4;70;76,9;Ekskul_2;Orang Tua;Belum;Beasiswa
+Wanita;74,8;78;87,8;78,2;70,9;84,9;76,1;75,5;72,5;65,2;Ekskul_6;NA;Belum;Orang Tua
+Wanita;70,9;63,1;66,6;61,2;61,3;77,5;76,5;65,4;60,4;87,5;Ekskul_6;Kos;Bekerja;NA
+Wanita;88,1;78;85,2;84,7;75,1;82,4;64,4;74,6;74,8;80;Ekskul_6;Orang Tua;Belum;NA
+Wanita;81,9;76,8;73,6;70,5;77,3;68,8;68,8;62,4;61,3;82,1;Ekskul_1;Kos;Belum;NA
+Pria;61,8;87,8;78,6;70;74,9;85,2;62,4;73,6;76,7;86,1;Ekskul_5;NA;Belum;NA
+Pria;74;77,6;87,7;80;68,2;71,2;76,9;88;60,1;71,5;Ekskul_2;Orang Tua;Belum;Beasiswa
+Wanita;80,7;68,1;61,8;74,8;87;79,6;65,8;63,9;87;82,2;Ekskul_5;Orang Tua;Belum;NA
+Wanita;60,6;66,6;83,1;83,4;86,6;75;62;70,7;69,2;68,1;Ekskul_4;Kos;Bekerja;NA
+Wanita;64;72,6;84,4;79,8;72,3;85;62,1;67,7;67,8;61,2;Tidak;NA;Bekerja;Beasiswa
+Pria;87,8;87,7;80,8;67;80,3;69,7;60,7;74,9;82,6;72,7;Ekskul_4;Kos;Belum;Orang Tua
+Wanita;77,9;84,8;64,2;78,9;69,5;83,1;64,2;74,9;78,6;76,4;Ekskul_4;Kos;Bekerja;Beasiswa
+Pria;85,9;82,8;87,4;86;61,6;76,3;81,1;86,4;74,9;61,4;Ekskul_3;NA;Bekerja;Orang Tua
+Wanita;65,9;75,1;66,8;76,6;71,8;85,9;75,5;86,5;68,2;83,2;Ekskul_1;NA;Belum;NA
+Pria;71,3;87,4;82,7;81;81,1;83,7;65,5;82,3;73,3;68,5;Ekskul_5;Orang Tua;Bekerja;NA
+Wanita;81,6;61,1;71,9;84,7;88,6;70,2;80;74,9;62,3;76,8;Tidak;NA;Belum;Beasiswa
+Pria;84,8;87,3;68,6;79,2;65,5;63,2;80,7;71,3;85,2;87,9;Tidak;Kos;Bekerja;NA
+Wanita;63,3;71,1;68,7;75,6;70,7;62,1;86,9;76,2;74,3;74;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;76;65,2;66,2;87,2;62,5;83,1;73,5;86,2;71,3;82,5;Ekskul_3;Kos;Bekerja;Orang Tua
+Pria;64;63,6;68,1;83,4;66,7;73,7;78,2;87,5;75;66,3;Ekskul_1;NA;Bekerja;NA
+Pria;87,8;62,8;72,7;64,3;74,2;63;86;79,3;62,4;64,2;Tidak;Kos;Belum;Beasiswa
+Wanita;79,3;79,8;83,3;77,1;66,8;88,5;87,1;74,1;70,4;60,1;Ekskul_4;Kos;Belum;Beasiswa
+Pria;68,9;67,7;68,8;64,7;73,4;83,2;66,3;83,3;60,4;66,5;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;81,6;74,7;80,1;79,2;86,8;60,4;70,2;70,6;63,2;78,3;Ekskul_4;Kos;Bekerja;NA
+Wanita;60,2;76,3;65;70;71,2;86,9;75,4;71,1;88,5;78;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;68,4;88;76;74,4;87,7;71,7;82,7;82,4;68,1;65,2;Ekskul_5;Kos;Belum;Orang Tua
+Pria;85,4;72,9;65;67,9;62,8;66,1;82,7;69,1;60,1;65,9;Ekskul_1;NA;Belum;NA
+Pria;79,8;88,5;88,6;78,2;69,5;62,5;60,5;75,8;64,6;65,4;Ekskul_3;Orang Tua;Bekerja;Beasiswa
+Pria;72,8;72,2;79,8;62,9;73,5;63,7;76,9;62,3;83,7;69,8;Ekskul_3;NA;Bekerja;NA
+Pria;84,9;61,7;88,6;66,6;77;81,1;84,5;69,5;61,1;65,4;Ekskul_3;Kos;Belum;Orang Tua
+Wanita;81,6;69,4;71,4;77,9;83;82,2;78,8;81;84,4;81,8;Ekskul_5;Kos;Bekerja;Beasiswa
+Pria;73,7;83,1;64,8;76,1;84,1;79,5;67,4;61,4;78,1;86,9;Ekskul_2;Orang Tua;Belum;NA
+Pria;73,2;78;82,8;65,6;70,1;74,7;63;80,7;63,1;64,4;Ekskul_3;Orang Tua;Belum;NA
+Pria;70,4;84,1;81,4;79,1;65,9;63,2;88;62,5;62,9;69,1;Ekskul_4;Orang Tua;Belum;Beasiswa
+Wanita;75,2;87,1;65,4;78,3;74,7;64,8;71,9;77,7;63,1;63;Tidak;Orang Tua;Belum;Beasiswa
+Wanita;62,2;86,9;80,1;73,1;65,7;88,1;63,8;76,6;72,4;79,5;Ekskul_4;Orang Tua;Belum;Orang Tua
+Pria;71;65,1;77,2;85,7;69;85,8;76,3;64,4;68,9;76,9;Ekskul_4;Kos;Belum;Beasiswa
+Wanita;83,2;76,5;65,7;63,8;77,9;69;68,7;71;75,8;60,7;Ekskul_4;Kos;Belum;NA
+Wanita;68,7;75,6;85,9;82,2;77,9;77,5;77,3;84,1;62,9;76,9;Tidak;NA;Bekerja;Beasiswa
+Wanita;61;63,7;85,6;76,4;86,4;72,6;60,4;80,7;65,9;66,3;Tidak;Orang Tua;Belum;NA
+Wanita;82,9;80,3;75,8;63,3;72,4;74,7;61,7;64,1;73,7;82,6;Ekskul_3;NA;Bekerja;Beasiswa
+Wanita;80,6;65,2;79,2;80,9;62,6;64,1;85,2;65,9;72,7;80,2;Ekskul_4;Kos;Belum;Orang Tua
+Wanita;70,8;66,7;83,3;67,8;60,7;78;66,4;87;88,1;66,7;Ekskul_3;Kos;Bekerja;NA
+Pria;86;75,6;67,2;70;66,3;79,4;72;83,5;64,6;79,6;Ekskul_2;Kos;Bekerja;Beasiswa
+Pria;84,4;74,4;72,6;88,2;86,8;63,7;80,7;75,4;62,3;66,1;Tidak;NA;Bekerja;Beasiswa
+Pria;62;69,8;78,6;67,4;67;78,7;74,7;69,5;87,4;65,9;Ekskul_4;NA;Bekerja;NA
+Wanita;86,4;84,5;85,8;65,1;67,4;65;64,5;70,8;83,1;85,3;Tidak;Kos;Bekerja;Orang Tua
+Wanita;87,6;66,6;88,4;68,4;86,2;84,9;85,4;77,9;63,4;77,8;Tidak;Kos;Bekerja;NA
+Wanita;78,3;63,9;69,7;77,2;73,5;84,5;72;63,7;64,1;81,5;Ekskul_5;Orang Tua;Belum;NA
+Wanita;65,3;72,3;67,7;83,8;60,4;82;64,8;80,3;63,6;62,3;Ekskul_6;NA;Bekerja;Beasiswa
+Wanita;63,8;80,8;75,8;63,2;79,4;81,1;77,4;72,1;84,4;81,4;Ekskul_1;NA;Bekerja;NA
+Wanita;84,5;68;79,8;85,3;62,8;67,5;82,6;81;62,4;66,4;Ekskul_3;Orang Tua;Belum;NA
+Pria;73,2;78,7;62,2;87,1;80;64,5;77,4;77,3;86,9;64,2;Ekskul_2;Kos;Bekerja;Beasiswa
+Wanita;65,9;88,2;64,5;80,2;67;63,8;84,8;65;63,3;65,1;Ekskul_4;Kos;Bekerja;NA
+Wanita;62,6;72,2;65,6;69,7;68,9;82;87,9;63,4;61,3;79,1;Ekskul_3;Kos;Bekerja;Orang Tua
+Wanita;63,6;62,5;63,1;60,1;79,5;83;78;73,8;86;67,2;Tidak;Orang Tua;Belum;Orang Tua
+Pria;69;61,4;74,1;82,1;66,5;66,9;70,2;67,6;87,3;68,8;Tidak;Orang Tua;Belum;Orang Tua
+Pria;73,4;73,6;82,6;75,1;67,7;60,8;88,5;62,5;71,8;87,3;Ekskul_2;Kos;Bekerja;Orang Tua
+Wanita;84;75,7;87,8;87,3;67,8;86,8;63,9;68,9;84;73,9;Tidak;Kos;Belum;Orang Tua
+Wanita;72,1;81,7;83,4;87,3;73,2;86,6;62,1;69,7;86;63,9;Ekskul_5;Kos;Bekerja;NA
+Wanita;69,5;82,6;60,6;82,2;79,3;66,4;67,9;62,1;60,6;79,4;Ekskul_3;Kos;Belum;Orang Tua
+Pria;83;66,9;68;86,1;69,1;66,3;84,9;61,4;64,4;69;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Pria;61,9;69,6;75,7;83,8;86;71,2;61,1;68,9;74;76,4;Ekskul_5;Orang Tua;Belum;NA
+Pria;88,6;86,4;81,5;73;66,2;71;83,1;83,3;70,2;71,2;Ekskul_5;NA;Belum;NA
+Pria;73,4;68,9;81,7;80,6;76,1;62,3;87,8;61;65,7;87;Ekskul_6;Kos;Belum;Beasiswa
+Wanita;71;66,4;79;74;80,6;73,8;84;88,1;69,1;87,2;Ekskul_3;NA;Bekerja;Beasiswa
+Wanita;73,2;83,3;73,5;80,9;74,3;62,9;63,6;66,9;68,6;62,6;Ekskul_4;Kos;Bekerja;NA
+Wanita;72;79,7;80,8;64,2;63,3;74,3;69,5;83,7;61,4;77,3;Ekskul_2;NA;Belum;Orang Tua
+Pria;70,2;62;86,4;72,4;77,3;66,4;64,5;88,4;75,5;83,6;Ekskul_6;NA;Belum;Orang Tua
+Pria;63,3;77;60,3;60,9;79,2;82,6;84,2;87,9;69,7;64,6;Ekskul_3;Kos;Belum;NA
+Pria;85,6;67,4;68,8;72,7;76,8;72,4;64,7;66,9;63,2;74,3;Ekskul_4;Kos;Belum;Beasiswa
+Pria;86,6;65,6;64,9;84,6;85,6;73,6;60,5;79,5;61,1;75,2;Ekskul_4;NA;Belum;Beasiswa
+Pria;70,6;83,4;80,1;66,2;80,2;86,2;87,7;66,1;74;71,9;Ekskul_1;NA;Bekerja;Orang Tua
+Wanita;65,8;88,4;86,7;76,2;83,7;80,8;84,8;72,7;62,2;74,7;Ekskul_5;Kos;Bekerja;Beasiswa
+Wanita;88,2;74,6;64,5;76;66,5;66,5;76,3;79;64,4;83,6;Ekskul_4;Orang Tua;Belum;NA
+Wanita;85,9;86,5;66,9;65,3;60,4;83,9;79,5;78,6;73,9;79;Ekskul_6;NA;Belum;Beasiswa
+Wanita;61,6;65,9;70,8;87,1;64,6;62,1;78,7;73,7;80,4;75,1;Ekskul_6;NA;Belum;Orang Tua
+Pria;68,4;61,7;83,3;66,8;78,9;88,1;74,2;85,2;60,6;77,5;Ekskul_6;NA;Belum;Beasiswa
+Pria;63,7;66,2;76,2;75,8;76,6;68,2;63,3;71,3;63,8;80,5;Ekskul_2;NA;Belum;Orang Tua
+Pria;79,7;81,9;78,4;79;87,2;85,9;60,3;84,2;79,9;73,1;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Pria;65,7;63,6;81,9;78,1;78,7;73,2;62,2;85,3;72,5;82,5;Ekskul_4;Kos;Bekerja;NA
+Pria;87,3;63,7;60,5;80,4;72,7;87,6;75,7;67,2;61,4;82,5;Ekskul_6;Kos;Bekerja;NA
+Pria;71,5;84,1;64,5;83,2;71,5;87,5;64,7;78,3;75,3;77,1;Ekskul_5;Orang Tua;Belum;Orang Tua
+Wanita;72,2;77,3;69,5;70,9;75,1;71,3;86,9;66,7;86,7;80,8;Ekskul_2;Orang Tua;Bekerja;Orang Tua
+Wanita;60,3;62,5;NA;79,1;66,4;77,1;73,6;87,2;71,6;85,5;Ekskul_3;Kos;Belum;NA
+Pria;61,3;70;73,9;79,9;82,3;72,5;77,9;69,5;88,1;67,6;Ekskul_2;Kos;Belum;NA
+Pria;66,4;82,5;69,7;76,2;63;76;88;87;76,1;83,4;Ekskul_5;Orang Tua;Belum;Orang Tua
+Pria;64,8;87,7;65,3;87,3;65,5;77,1;82,4;61,1;66,2;73,7;Ekskul_2;Kos;Bekerja;Orang Tua
+Wanita;72,3;88;72,7;84,6;75,7;76,7;88,6;78,1;70,8;67,6;Ekskul_6;Orang Tua;Bekerja;Beasiswa
+Pria;78,5;67,4;61,4;66,1;84,7;85;77,4;88,1;74,8;77,8;Ekskul_4;Orang Tua;Belum;NA
+Wanita;76;70,9;69,3;65,2;68,7;88,2;76,5;85,1;87,3;74,7;Ekskul_6;NA;Bekerja;Beasiswa
+Pria;71,7;66,7;78,8;63,9;79,9;68;69,8;79,4;82,7;83,2;Ekskul_1;Kos;Bekerja;Beasiswa
+Wanita;60,6;77,9;76,6;62,2;61,3;66,4;60,8;82,1;64,2;72,7;Ekskul_4;Orang Tua;Belum;NA
+Wanita;61;79,4;88,1;70,9;62,4;67,6;79,6;88;81,6;87,4;Ekskul_3;Orang Tua;Belum;Beasiswa
+Pria;81,5;68,8;77,5;86;80,4;62,8;61;65,7;81,8;63,8;Ekskul_5;Orang Tua;Bekerja;NA
+Wanita;70;78,6;82,8;83,1;78,4;88,3;84,2;78,1;60,7;72,1;Ekskul_1;Orang Tua;Belum;NA
+Pria;74,3;66,8;65;86,5;61,7;77,4;79,8;82,1;63,5;85,6;Ekskul_6;NA;Belum;Beasiswa
+Wanita;68,9;66,6;67,1;70;73,5;60,9;67,7;78,8;72,1;61,1;Ekskul_4;Kos;Bekerja;Orang Tua
+Pria;73,3;66,9;67;84,5;64,6;85,2;84,5;72,6;74,4;86,3;Ekskul_1;Kos;Bekerja;NA
+Wanita;80,7;85,1;61,3;87,3;87,1;73,4;73,2;81,1;67,1;62,3;Ekskul_1;NA;Bekerja;Beasiswa
+Pria;78,1;68,2;77,1;61,3;62,5;88,5;70,6;64,2;87,4;66,2;Ekskul_5;Kos;Belum;Orang Tua
+Wanita;78;80,3;84;75,5;88;62,6;66,2;70,4;82,3;64,3;Ekskul_1;Orang Tua;Belum;NA
+Wanita;74,2;81,3;86,4;74,4;75,8;63,5;74,3;84,9;83,9;76,3;Ekskul_4;Kos;Bekerja;Orang Tua
+Wanita;69;63,2;62,6;69;80;75,8;84,9;61,6;60,7;74,6;Ekskul_5;Kos;Bekerja;Beasiswa
+Wanita;77,4;60,8;72,2;72,5;74,2;84,7;78,8;74,1;61;61,1;Ekskul_5;Orang Tua;Belum;NA
+Pria;77,4;79,8;61;86,4;78,8;77,7;69,1;67,2;67,6;83;Ekskul_6;Orang Tua;Bekerja;NA
+Wanita;66,5;67,4;78,5;74,6;86,5;80,6;66,1;60,6;82,7;78,4;Ekskul_1;Orang Tua;Belum;Beasiswa
+Pria;76,1;79,3;68,3;71,9;73,9;75,3;73,4;81,5;68,4;87,3;Tidak;Orang Tua;Bekerja;Beasiswa
+Wanita;67,3;87,3;62;82,1;83,4;77,2;64,7;70,9;63,4;73,9;Tidak;Orang Tua;Belum;Beasiswa
+Wanita;60,4;81,4;73,7;79,2;60,4;86,7;77,6;88,6;80,6;73,9;Ekskul_3;Kos;Bekerja;Orang Tua
+Wanita;81,5;76,1;62,5;84,8;63,5;64,1;85,5;67,5;65,5;82,1;Tidak;Kos;Bekerja;Beasiswa
+Wanita;64,2;66,5;88,1;74,2;61,4;61,5;87,9;74,7;67;68,8;Ekskul_2;NA;Belum;Orang Tua
+Wanita;72,5;75,9;82,3;83,4;80,3;80,5;86,3;87,2;67,8;83,4;Ekskul_5;NA;Belum;NA
+Wanita;69,1;86;81,9;82,7;87,4;65;65;68,9;81,4;71,6;Ekskul_6;NA;Bekerja;Beasiswa
+Wanita;72,3;83,3;85,3;77,9;71,2;64,5;67,8;72,4;83,6;62,3;Tidak;Orang Tua;Bekerja;Beasiswa
+Wanita;83,3;79,2;65,7;80,9;79,4;75,1;85,1;74,5;73,8;82,7;Ekskul_3;Kos;Belum;Orang Tua
+Pria;68,1;83;83,7;87,3;74,4;83,5;67,1;80,4;83;74,3;Ekskul_4;Orang Tua;Belum;Orang Tua
+Pria;76,9;71,2;69,9;87;81,8;82,8;83;64,9;63,1;67,8;Ekskul_6;Orang Tua;Bekerja;Orang Tua
+Pria;65,2;62,4;84,9;84,6;82;67,2;81,7;81,5;67,3;73,4;Ekskul_4;NA;Bekerja;NA
+Pria;86,3;62,3;75,6;62,1;78,8;85,3;87;87,1;78,3;71,2;Ekskul_4;Kos;Bekerja;Orang Tua
+Wanita;85,8;69;80,8;67,5;64,4;61,2;74,4;88,4;75,9;68,7;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;84,2;62,2;82,8;79,2;76,9;63,1;84,5;88,2;78,9;65,4;Ekskul_5;NA;Bekerja;Orang Tua
+Wanita;70,6;67,5;68;71,7;81,4;74,6;75,8;65,2;87,6;62,4;Ekskul_2;NA;Bekerja;Orang Tua
+Pria;63,5;82,8;61,8;88,6;61,2;80,7;75,9;82,7;69,4;60,4;Ekskul_3;Orang Tua;Belum;NA
+Wanita;77,5;87,4;86,1;67;85,9;77,5;72,9;62,3;79,4;80,9;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;65,7;72,4;74,7;74;84,5;81,2;75,4;65;73,7;85,8;Ekskul_3;Orang Tua;Bekerja;Beasiswa
+Wanita;61,8;77,3;70,1;83,4;66;60,1;67,8;60,7;87,6;63,9;Ekskul_6;Kos;Belum;Beasiswa
+Wanita;82,7;83;72,6;60,6;76,7;88,6;81,5;63,6;80,1;79,1;Ekskul_5;Kos;Belum;Beasiswa
+Wanita;73,9;85,2;86,9;60,8;82,5;75,6;85,4;79,7;74,3;61,7;Ekskul_3;NA;Belum;Beasiswa
+Wanita;72,8;78,4;69,5;72,4;85;64,3;78,5;85;67,6;88,6;Tidak;Orang Tua;Bekerja;NA
+Wanita;82,1;85;71,5;70;76;76,2;81,6;60,7;84,1;81,6;Ekskul_3;NA;Bekerja;Orang Tua
+Wanita;81,9;85,9;65,7;81,8;83,1;81,9;61,3;80,9;79,7;60,8;Ekskul_3;Orang Tua;Belum;Orang Tua
+Pria;64,9;63;64,7;72,6;67,2;84,2;73,4;75,2;85,1;79,7;Ekskul_3;NA;Belum;Beasiswa
+Wanita;62,9;79,1;74,5;83,7;61,6;71,5;73,7;60,4;81;80,7;Ekskul_2;Kos;Bekerja;Orang Tua
+Wanita;64;69,3;78,9;68,3;85,8;84,1;87,4;64,1;83,6;75,8;Ekskul_5;Kos;Bekerja;Beasiswa
+Pria;77,7;81,7;78,1;70,3;80,6;71,9;65,4;66,7;67,2;84,3;Ekskul_6;Kos;Belum;NA
+Wanita;78,3;81,1;77;80,3;75;69,1;69,6;64,7;71,6;85,5;Ekskul_5;NA;Bekerja;Orang Tua
+Wanita;85,1;68,3;82,3;67,1;85,9;75,3;81,1;88;77,3;83,7;Tidak;NA;Belum;Orang Tua
+Wanita;69,4;80,9;82,2;60,5;62,6;63,9;74;66,2;74,6;87;Ekskul_6;Kos;Bekerja;Orang Tua
+Wanita;83,5;66,8;81,8;69,8;64;88,3;75;87,7;66,8;75,7;Tidak;NA;Bekerja;Beasiswa
+Wanita;76,2;65,5;83;72,5;76,5;73,5;78,2;88,3;66,1;85,5;Ekskul_1;Kos;Bekerja;Beasiswa
+Wanita;81,5;65,5;72;65,3;70,8;79,3;61,1;78,6;62,8;76;Ekskul_1;Kos;Belum;Beasiswa
+Wanita;77,9;70,2;71,1;75,7;65,1;69;77,5;76,8;70,3;76;Ekskul_1;NA;Bekerja;Orang Tua
+Pria;74,4;65,6;60,3;72,7;87,9;71,1;74,1;79,3;67,6;71,7;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;74,2;66,6;64,1;79,4;73,3;83,6;80,9;72,4;66,8;67,3;Ekskul_6;Kos;Belum;Orang Tua
+Pria;76,3;81,7;64,3;78,8;76,1;75,3;83,7;60,8;83,3;64,8;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Wanita;73,3;73,3;75,5;69,4;63,9;87,6;82,3;71,3;72,4;77;Ekskul_3;Kos;Belum;Beasiswa
+Wanita;84,8;70,1;81;67,7;88,6;67,7;79,2;69,1;71,3;66,4;Tidak;Orang Tua;Bekerja;NA
+Pria;65,6;86,6;84,9;87,2;63,1;84,6;74,5;74,3;87;60,9;Ekskul_2;Kos;Belum;Orang Tua
+Pria;67,9;83,1;60,5;69,8;63,6;68,5;70,7;65,2;85,5;87,4;Ekskul_6;NA;Bekerja;Orang Tua
+Pria;86,4;75,3;84,4;84,6;82,6;61,6;83,7;74,1;74,8;75,7;Ekskul_2;Kos;Belum;NA
+Pria;80,3;78,9;88,4;83,4;69,7;73,4;74,9;87,4;85,7;77,9;Ekskul_6;Kos;Belum;NA
+Wanita;64,2;83,1;86,4;67,9;81,7;84,9;79,9;63,2;71,9;76,7;Ekskul_2;NA;Bekerja;Orang Tua
+Wanita;88,6;82;61,2;71,5;71,4;80,6;66,4;64,7;83,9;87,4;Ekskul_2;Kos;Belum;Beasiswa
+Pria;66,2;86,3;80,5;68,3;83,2;77,4;88,5;88,5;64,1;72,1;Ekskul_1;Orang Tua;Bekerja;NA
+Pria;73,2;72,5;70;75,7;70,3;65,6;80,3;63,7;82,6;87,9;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;70,9;67,9;88,2;62;76;66,4;68,8;81,9;62,1;85,6;Tidak;Orang Tua;Belum;NA
+Pria;84,6;79,3;71,2;81,7;62,9;66,3;60,9;84,5;69,1;61,2;Ekskul_6;Orang Tua;Bekerja;NA
+Pria;79,6;80,6;84,3;68,7;72,2;60,7;80;88,5;NA;76;Ekskul_5;NA;Bekerja;Orang Tua
+Pria;67,2;77,8;71,3;81,3;71,5;79,4;75,3;65,6;83,2;64,8;Ekskul_6;Orang Tua;Belum;Beasiswa
+Wanita;64,8;65,1;81,6;78,4;65,4;87,1;69,8;87,8;65,7;84,6;Tidak;Orang Tua;Belum;Orang Tua
+Pria;61,5;80,6;62;70,2;83,8;69,1;60,7;71,8;80,3;67,8;Ekskul_3;Orang Tua;Bekerja;Orang Tua
+Pria;73,8;80,5;64,5;74,5;82,6;70,3;66,9;67,7;73,8;84,2;Ekskul_4;Orang Tua;Belum;Beasiswa
+Pria;65,1;80,7;60,6;73;82,4;72,9;75,8;69,6;84,8;70,2;Ekskul_1;Kos;Bekerja;Beasiswa
+Pria;67,6;82,6;63,7;72,5;63,4;68,1;87,9;80,5;62,5;83,3;Ekskul_5;NA;Belum;Orang Tua
+Wanita;76,2;75,5;88,3;61,8;84,3;61,2;88;80,6;74,2;62;Ekskul_2;NA;Belum;Orang Tua
+Pria;71,4;74,2;72,4;63,4;88,5;85;62;83,1;71,7;78,7;Tidak;Orang Tua;Bekerja;NA
+Pria;80,8;83,2;81,2;62,3;87,3;76,2;86,5;78,1;73,6;64,7;Ekskul_6;NA;Bekerja;Beasiswa
+Pria;70,9;60,9;76,5;78,5;72,1;82,2;66,7;78,1;60,5;66,5;Ekskul_6;Kos;Belum;Orang Tua
+Pria;88,3;62,9;70,6;78,8;73,5;87,3;77,7;64;73,6;61,8;Ekskul_4;NA;Bekerja;Orang Tua
+Pria;83,6;63,5;86,7;84,6;62,4;69,2;62,4;61,4;NA;80,5;Ekskul_3;NA;Belum;Orang Tua
+Pria;85,7;83,8;65,6;71,7;88,4;78,4;63,3;66,7;65,6;85,8;Ekskul_6;Kos;Bekerja;Orang Tua
+Wanita;76,2;61;72,4;79,8;78,1;87,1;82,1;83,4;74;68,6;Ekskul_6;Kos;Belum;Beasiswa
+Wanita;78,6;63,1;80,8;81;70;63,9;82,9;87,9;66,1;62,5;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Pria;73,1;63;60,3;86,1;80,2;64,2;71,8;60,9;68,8;65,6;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Wanita;73,7;76,6;75,2;69,8;70,6;79;65,9;66,1;75,5;81;Ekskul_5;NA;Bekerja;Beasiswa
+Wanita;78,3;69,9;67,7;84,7;82,5;64,1;84,5;61;72,2;69,9;Ekskul_6;Kos;Bekerja;Orang Tua
+Pria;67,8;82,2;64,5;62,7;70,7;70,1;66,2;83,5;81,4;68;Ekskul_6;Orang Tua;Bekerja;Beasiswa
+Wanita;70,4;65,1;65;78;88,6;80,2;82,5;70,3;74,2;77,4;Tidak;Kos;Bekerja;Orang Tua
+Pria;62,7;65,4;87,2;63,5;82,5;73,4;75,4;85,9;72,6;60,3;Ekskul_6;Kos;Belum;Beasiswa
+Wanita;64;66,5;88;84,1;66,5;87;65,5;66,6;75,5;62;Ekskul_2;NA;Bekerja;Beasiswa
+Pria;79,6;73,9;87;78,2;61,5;79,7;88,4;84,6;72,6;86,9;Ekskul_2;NA;Bekerja;Beasiswa
+Pria;81;66;71;83,8;71,5;82,2;66,7;74;64,4;78,6;Ekskul_4;NA;Belum;Orang Tua
+Pria;77,7;85,2;84,3;65,5;77,8;78,2;69,8;80,4;76,6;78,8;Ekskul_3;Kos;Belum;Beasiswa
+Wanita;62,4;64,4;76,7;76,4;86,8;72,1;75,1;85,2;84,9;72,1;Ekskul_2;Orang Tua;Bekerja;Orang Tua
+Wanita;79,7;82,4;84,5;82,4;74,9;65,1;85;76,7;61,6;85,2;Tidak;Kos;Belum;Orang Tua
+Pria;82,3;63,1;80,9;82,5;79,8;82,1;88,3;82,4;78,8;60,9;Ekskul_4;Orang Tua;Belum;NA
+Pria;62,6;64,3;83,9;77,7;64,4;83;78,6;88,3;78,9;86,9;Ekskul_3;NA;Belum;Orang Tua
+Pria;64,8;84,8;74,3;84,3;61,9;88;63,9;74,7;81,4;71,7;Ekskul_5;Kos;Bekerja;Beasiswa
+Pria;69,3;71,6;81,3;79,7;69,7;66,4;71,9;74,8;81;85,8;Ekskul_3;Orang Tua;Belum;Beasiswa
+Wanita;86,9;80,7;63,2;77,7;87;88,1;66,6;73,9;62,8;83,2;Ekskul_5;Orang Tua;Bekerja;Orang Tua
+Wanita;73,1;73,8;67,2;86,2;67,3;87,4;63;73,4;62;61,1;Ekskul_5;NA;Bekerja;NA
+Pria;69,5;85;85,6;88,5;68,6;76,2;70,5;83,8;75,7;60,2;Tidak;Kos;Bekerja;NA
+Wanita;86,5;75;63,4;75,4;68,7;85,5;73,7;80,1;75;74,5;Ekskul_4;Kos;Bekerja;NA
+Pria;81,6;65,2;71,9;84,1;73,5;61,2;70,4;73,9;83,3;71,6;Ekskul_4;Orang Tua;Belum;Beasiswa
+Wanita;68,1;74,6;80,1;71,6;71,1;71,5;62;74,1;78,9;85,2;Ekskul_2;Orang Tua;Belum;Orang Tua
+Pria;88,3;85,6;69,2;69,6;76,9;75,9;75,1;72;71,5;61,2;Tidak;Kos;Bekerja;Orang Tua
+Pria;85;81,3;76,6;65,3;67,1;67,9;61;86,7;77,8;65,7;Ekskul_1;Kos;Belum;NA
+Pria;83,9;61;68;66;69,2;81,1;77;88;75,8;82,9;Ekskul_5;NA;Belum;NA
+Wanita;86,7;71,1;88,5;62,9;80,9;62,9;81,1;82,3;80,5;68,4;Ekskul_4;NA;Bekerja;Orang Tua
+Wanita;70,3;75,8;73;78;82,2;64,2;61,3;73,8;86,4;75,6;Ekskul_5;Orang Tua;Bekerja;Orang Tua
+Wanita;69,8;71,4;79,9;84,6;77;70,1;81,6;71,2;66,2;86,9;Ekskul_5;Kos;Belum;Beasiswa
+Pria;73,8;71,2;67,1;80,4;67;82,8;88,3;79,7;84,8;80,1;Ekskul_4;Orang Tua;Belum;NA
+Pria;81,9;81,5;83,3;80,5;85,8;70,4;87,4;85,9;73;61,6;Ekskul_5;Kos;Bekerja;NA
+Pria;80,1;66,6;64,1;88,6;79,3;72,6;76,4;86,4;76,4;74,2;Ekskul_3;Orang Tua;Bekerja;NA
+Pria;75,1;75,2;60,6;79,9;69,4;74,4;67,6;60,8;60,6;83,9;Tidak;Kos;Bekerja;Orang Tua
+Pria;72,1;87;75,1;67,6;78,8;65,8;78,3;60,6;74,2;68,6;Ekskul_3;NA;Belum;NA
+Wanita;65,9;68,8;85,1;84,3;60,5;76,6;69,1;63,7;72,7;74,4;Ekskul_5;Orang Tua;Belum;NA
+Pria;86,8;86,9;73,5;79,2;76,3;77,4;68,4;72;71,9;68,8;Ekskul_2;Orang Tua;Belum;NA
+Wanita;82,9;82,9;83,4;71,1;62,5;87,9;82,5;78;73,3;75,5;Ekskul_5;Orang Tua;Belum;Orang Tua
+Pria;83,2;71,2;67,3;63,3;66,8;74,9;78;76,1;74;72;Ekskul_3;Orang Tua;Bekerja;Beasiswa
+Pria;63,5;64,7;68,7;71,1;76;68,8;66,4;74;67,7;70,2;Tidak;NA;Bekerja;Beasiswa
+Wanita;82,9;72,7;86,4;70,5;64,6;82,9;82,3;65,7;81,4;60,5;Ekskul_6;Kos;Belum;Orang Tua
+Pria;64;70,8;63,6;79,4;72,8;67,6;85,6;63,9;67,6;67,1;Ekskul_2;Kos;Belum;Beasiswa
+Pria;80,9;63,2;81,8;60,9;63,1;78,7;84,6;83,4;82;87,7;Ekskul_5;NA;Belum;Beasiswa
+Wanita;68,7;68,3;65,4;87,2;85,4;84,3;68,9;63,1;84;75,8;Ekskul_5;Orang Tua;Bekerja;Beasiswa
+Wanita;69,7;86,1;79,4;71,2;62,2;74,2;80;66,8;74,2;83,4;Ekskul_6;Kos;Bekerja;Orang Tua
+Pria;84,5;75,9;87,5;69,4;86,1;75,4;60,6;61,5;62;75;Ekskul_1;NA;Belum;Beasiswa
+Pria;77,5;75,9;68,8;71,9;88;65,7;85,3;69,9;75,5;85,2;Ekskul_5;NA;Bekerja;Beasiswa
+Pria;60,4;62,7;79,7;61,5;67,3;61,8;80,1;85,4;72;64,5;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;85,2;69,5;86,5;77,1;70,3;70,5;85,1;66,2;78,3;60,1;Ekskul_3;Kos;Bekerja;Beasiswa
+Wanita;65,9;81,7;62,6;79,9;82,2;64;74,5;80,4;77,1;65,7;Tidak;Orang Tua;Bekerja;NA
+Wanita;87;69,7;60,5;62,8;61,1;72,1;72,7;83,3;75,7;66,2;Tidak;Kos;Bekerja;Beasiswa
+Pria;79,9;78,4;66,1;72,5;82,8;70,3;67,1;80,6;76,6;82,3;Ekskul_1;Orang Tua;Bekerja;Beasiswa
+Pria;77;62,4;60,7;80,4;79,8;85,3;63,7;61,7;86,9;82,2;Ekskul_5;Kos;Bekerja;Beasiswa
+Wanita;70,9;61,9;73,6;87,6;72,9;83,6;83,1;80,6;69,2;61,3;Ekskul_5;Orang Tua;Belum;Beasiswa
+Pria;70,3;76,2;65,8;65,8;68,6;73,4;79;74,9;78,6;63,7;Ekskul_3;Kos;Bekerja;Orang Tua
+Pria;73,8;85,2;88;65,4;63,9;71,3;83,1;69,3;64,2;65,8;Ekskul_5;NA;Bekerja;NA
+Pria;71,9;80,2;71,6;78;60,9;80,6;83,3;69,9;82,5;82,1;Ekskul_5;Orang Tua;Belum;NA
+Pria;85,7;81,4;64,3;60,6;69,1;61,2;88,3;64;71,9;81,7;Ekskul_2;Orang Tua;Belum;Beasiswa
+Pria;68,7;82,5;81;64;72,6;66,9;77,6;83,3;80,9;82,3;Ekskul_6;Kos;Bekerja;Orang Tua
+Wanita;75,7;68;85,2;63;74,9;78,3;78,8;83;78,1;83,1;Ekskul_2;Orang Tua;Bekerja;Orang Tua
+Pria;85,2;76,2;69,3;64;84,6;81,8;65,1;70,2;79,6;73,7;Tidak;NA;Belum;Beasiswa
+Wanita;62,1;78,1;66,9;70,9;73,7;85,5;77,8;86,3;78,6;76,4;Ekskul_6;NA;Bekerja;Beasiswa
+Pria;78;60,2;65,2;84,6;63,1;72,5;87,1;84,3;66,5;69,3;Ekskul_2;Kos;Belum;Beasiswa
+Pria;68,3;78,9;81,1;77,6;62,8;70,4;64,9;87,2;83,4;61,3;Ekskul_1;Kos;Bekerja;Orang Tua
+Pria;64,5;68,7;86,6;75,5;64,3;86,9;74,8;61,3;82,2;71,8;Ekskul_1;Kos;Bekerja;Orang Tua
+Pria;72,4;82;65,8;68,1;76,6;80,6;82;79,2;87,9;84,3;Ekskul_4;NA;Bekerja;Orang Tua
+Wanita;88,5;72,4;67,1;64;63,3;77,8;61,3;77,4;70,6;72,7;Ekskul_4;Kos;Belum;Orang Tua
+Pria;73,3;62,9;69,3;77,7;64,6;82,5;67,3;61,4;74,8;78,1;Ekskul_5;Kos;Bekerja;Beasiswa
+Wanita;85,8;82,7;77,9;87,3;82,4;73,4;80,3;75,2;64,8;85,3;Tidak;NA;Bekerja;Beasiswa
+Pria;79,6;85,7;81,1;79;83,5;72,5;81,2;64;70,5;67;Ekskul_5;Orang Tua;Belum;NA
+Wanita;64;83,1;68,2;69,4;78,4;82;63,4;78,5;72,2;63,3;Tidak;Kos;Bekerja;Orang Tua
+Wanita;72,7;72,8;73,6;79,9;71,5;71,3;86;69,5;81,5;67,3;Ekskul_1;Orang Tua;Belum;Orang Tua
+Wanita;82,2;61;78,3;64,8;67,7;70,5;68,7;73,7;82,3;78,8;Ekskul_1;NA;Belum;NA
+Pria;65,8;70,2;74;87,7;73,9;78,5;78,8;80,9;67,8;69;Ekskul_5;NA;Belum;Beasiswa
+Pria;66,6;64,7;70,5;87,4;73,4;62,3;82;73,6;69,5;79,3;Ekskul_5;Kos;Belum;Orang Tua
+Pria;80,7;72,8;87,2;68,7;68,3;83,1;85,4;87,9;80,2;71,4;Tidak;NA;Belum;Beasiswa
+Pria;60,7;87,8;88,6;61,3;76,3;67,8;79,4;81,7;83,7;82,1;Ekskul_3;Orang Tua;Belum;NA
+Pria;66;63,1;NA;75,7;70,4;81,6;76,8;72,7;65,8;84,4;Tidak;NA;Bekerja;Orang Tua
+Wanita;73,3;64,5;62;81,3;87,6;88,1;74;68,7;82,1;66;Ekskul_3;Orang Tua;Belum;NA
+Pria;75,2;75,4;62,9;87,4;80,4;62,6;74,2;69,2;67,3;72,5;Ekskul_3;NA;Bekerja;NA
+Wanita;87,7;67,4;71,6;83,4;87;82,9;65,2;76,8;80,2;67,4;Ekskul_4;Kos;Bekerja;Orang Tua
+Pria;66,3;60,4;62,5;83,8;62,5;70,8;72,5;64,5;82;73,9;Ekskul_4;NA;Bekerja;NA
+Pria;61;63,2;83,7;73,1;63,6;81,8;86,7;75;86,1;77,2;Tidak;NA;Belum;NA
+Pria;66,4;83,1;62,1;80,6;63,9;75,9;60,6;88,3;63,2;84,7;Ekskul_2;NA;Bekerja;NA
+Pria;74,2;65,3;68;66,2;63,7;64,1;85,4;66,9;68,4;88,2;Ekskul_3;Kos;Belum;Orang Tua
+Pria;74,5;62,3;64,7;61,8;63,1;61,6;70,9;67,9;67,9;71,6;Ekskul_1;Orang Tua;Belum;Orang Tua
+Pria;71,8;63,6;66,9;76;60,1;84,9;88,5;83,2;86,1;69,8;Ekskul_5;Orang Tua;Bekerja;NA
+Wanita;72,9;76,1;82;75;63,7;87,8;61,6;75,9;74,5;60,8;Ekskul_1;NA;Belum;Beasiswa
+Wanita;60,9;64,9;64,2;82,4;82,7;83,1;61,2;84,7;64,1;75;Ekskul_3;Orang Tua;Bekerja;NA
+Wanita;83,8;64,2;77,8;63,9;75,8;83,2;85,4;86;68,8;83,5;Ekskul_4;Kos;Belum;Orang Tua
+Pria;82,2;83,8;70,6;85,8;76,5;80,4;73;66,2;73,2;76;Ekskul_6;NA;Belum;NA
+Wanita;63,3;69,4;85,7;71,7;63,5;80;68,7;79;72,9;79,4;Ekskul_5;Kos;Belum;Orang Tua
+Pria;61,3;60,9;64,8;67,4;80,1;64,7;78,4;70,1;77,7;85,4;Tidak;NA;Bekerja;Beasiswa
+Wanita;86,1;83,9;74,7;67,1;64,2;63,4;73,3;63,1;87,2;80,7;Ekskul_5;Kos;Belum;Beasiswa
+Wanita;75,1;80,2;75,1;68,8;79,9;86,1;88,3;83,2;88,1;71,2;Tidak;Orang Tua;Belum;Beasiswa
+Wanita;69,7;80,8;72,6;68,9;69,6;79,8;65,7;80,7;63;79,7;Ekskul_2;NA;Bekerja;NA
+Wanita;88,5;84,1;87,3;65,3;78,5;81,2;66,4;69,2;88,4;88,4;Ekskul_2;Orang Tua;Bekerja;Beasiswa
+Wanita;61,9;79,2;67,8;76,3;85,6;78,8;82,3;86,9;74,6;76,8;Ekskul_1;Kos;Belum;Orang Tua
+Pria;78,4;85,8;82,6;77,4;76,8;70,3;72,4;68,2;81,1;85,7;Ekskul_4;Orang Tua;Bekerja;Orang Tua
+Wanita;75,5;61,1;87,3;67,5;70,5;69,4;82,9;64,3;67,7;77,7;Ekskul_4;Kos;Belum;Orang Tua
+Wanita;62,5;84,9;64;73,8;61,5;87,1;88,6;88,2;85,5;75,2;Tidak;Orang Tua;Belum;Beasiswa
+Wanita;67,6;75,7;87,2;80,2;62,8;88,1;70,3;76,2;84,4;64,2;Ekskul_6;NA;Bekerja;Orang Tua
