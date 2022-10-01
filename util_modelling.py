@@ -21,7 +21,6 @@ def doStratifiedCrossvalidation(model,x,y,n_splits=5, shuffle=True, random_state
             model.fit(X_train,Y_train, batch_size=batch, epochs=epochs)
         else :
             model.fit(X_train, Y_train)
-            print(model.best_params_)
 
         Y_pred = model.predict(X_test)
 
@@ -59,13 +58,13 @@ def getStratifedKFoldScore(list_model,x,y,n_splits=10, shuffle=True, random_stat
     return pd.DataFrame(dict_score)
 
 
-def createMLP(default_neuron=100, dropoutparams=0.3, lr=0.01, epochs=10):
+def createMLP(default_neuron=100, dropoutparams=0.3, lr=0.01):
     model_l = tf.keras.Sequential()
     model_l.add(tf.keras.layers.Dense(default_neuron, input_shape=(10,)))
     model_l.add(tf.keras.layers.Dense(default_neuron*2))
     model_l.add(tf.keras.layers.Dropout(dropoutparams))
     model_l.add(tf.keras.layers.Dense(50))
-    model_l.add(tf.keras.layers.Dense(5))
+    model_l.add(tf.keras.layers.Dense(5,activation='softmax' ))
 
     model_l.compile(optimizer=tf.keras.optimizers.Adam(lr), loss=tf.keras.losses.SparseCategoricalCrossentropy(),
         metrics=[
@@ -86,7 +85,7 @@ def doValidation():
 def prepareSVM(do_hyperParams=False):
     if(do_hyperParams):
         params = {
-            "C" : (0, 1, 0.1)
+            "C" : (0.1, 1, 0.1)
         }
         model =sklearn.model_selection.GridSearchCV(SVC(), param_grid=params)
         return model

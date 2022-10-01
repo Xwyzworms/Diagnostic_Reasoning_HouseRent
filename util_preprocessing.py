@@ -49,9 +49,10 @@ def changeColumnsToNumbers(df, columTobeChanged):
 
 
 def normalizeNumericColumn(df,num_col):
+	dfCopy = df.copy()
 	scaler = MinMaxScaler()
-	df[num_col]=scaler.fit_transform(df[num_col])
-	return df[num_col],scaler
+	dfCopy[num_col] =scaler.fit_transform(dfCopy[num_col])
+	return dfCopy[num_col].copy(),scaler
 
 def denormalizeNumericColumn(df,scaler,num_col):
 	df[num_col]=scaler.inverse_transform(df[num_col])
@@ -64,11 +65,18 @@ def encodeCategoricalColumn(df,cat_col=[]):
 		return df,encoder
 	dictEncoder=defaultdict(LabelEncoder)
 	df[cat_col] = df[cat_col].apply(lambda x: dictEncoder[x.name].fit_transform(x))
-	return df, dictEncoder
+	return df.copy(), dictEncoder
 
 def decodeCategoricalColumn(df,dictEncoder,cat_col):
 	df[cat_col] = df[cat_col].apply(lambda x: dictEncoder[x.name].inverse_transform(x))
 	return df
+
+def cutDf(df, bins, listCols):
+	df_cutted = df.copy()
+	for col in listCols:
+		df_cutted[col+"_cat"] = pd.cut(df[col], bins)
+
+	return df_cutted
 
 def checkNullDataFrame(df):
 
