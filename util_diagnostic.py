@@ -98,13 +98,18 @@ def getChiSquareSummary(df, cols_params):
     return returned_df
 
 
+def getCramers_V(df,cols_param):
+    ans = []
+    for var1 in cols_param:
+        col = []
+        for var2 in cols_param:
+            cramer = util_calculation.calculateCramers_V(df, var1, var2)
+            col.append(cramer)
+        ans.append(col)
+    result = np.array(ans)
+    return pd.DataFrame(result, columns=cols_param, index=cols_param)
 
-# def getCramers_V(df, cols_params):
-#     ans = []
-#     for var1 in cols_params:
-#         col = []
-#         for var2 in cols_params:
-#             cramer= 
+
 
 def getChiSquare(df, cols_params):
     ans = []
