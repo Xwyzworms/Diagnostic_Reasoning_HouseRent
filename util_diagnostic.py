@@ -121,7 +121,14 @@ def getChiSquare(df, cols_params):
             ans.append(relation)
     return getChiSquareResult()
 
+def getSumAndPercentageOfMissingValues(df):
+    arr_sum_miss_val = df.isna().sum().values
 
+    arr_perc_miss_val = (df.isna().sum() / len(df) * 100).values
+
+    miss_val_df = pd.DataFrame(data={"Sum Missing Values" : arr_sum_miss_val, "Percentage Missing Values(%)" : arr_perc_miss_val}, index=df.columns)
+    
+    return miss_val_df
 
 def diagnosticCVResult():
     ...
