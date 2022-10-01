@@ -86,8 +86,8 @@ def calculatePartialCorrelation(dfCorr, col1, col2, covar):
     pc = pg.partial_corr(dfCorr, x, y, covar)
     return pc
 
-def getOutlierValue():
-    ...
+def getOutlierValue(df, col, Q1, Q3, IQR):
+    return ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
 
 def calculateChiSquareGoodnesOfFit():
     ...
