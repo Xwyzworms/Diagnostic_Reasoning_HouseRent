@@ -28,6 +28,7 @@ def getOnlyColmnsWithType(df, dataType):
 	'''
 	return df.select_dtypes(include=[dataType]).columns
 
+
 def profileReport(df):
 	'''
 	Referred from Jupyter Notebook.

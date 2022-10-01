@@ -5,6 +5,9 @@ import util_preprocessing
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pingouin as pg
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
 
 
 
@@ -52,7 +55,7 @@ def calculateCorrelationCategorical(data):
     _getCorellationFromProfillingReport(profile,"cramers",)
 
 def calculateChiSquareIndependence(df, val1, val2):
-    crosstab = pd.crosstab(df[val1], df[val2], rownames= NOne, colnames=None)
+    crosstab = pd.crosstab(df[val1], df[val2], rownames= None, colnames=None)
     chiSquared = stats.chi2_contingency(crosstab)
     return chiSquared
 
@@ -63,33 +66,12 @@ def calculateCorrelationMix(data):
 
 def calculateCramers_V(data, col1, col2):
     crosstab = np.array(pd.crosstab(data[col1], data[col2], rownames=None, colnames=None))
-    chiSquare = chi2_contingency(crosstab)
+    chiSquare = stats.chi2_contingency(crosstab)[0]
     
     observation = np.sum(crosstab)
     minimumValue = min(crosstab.shape) - 1
+    return round(chiSquare / (observation * minimumValue),3)
 
-    return chiSquare / (observation * minimumValue)
-
-def calculatePartialCorrelation(dfCorr, col1, col2, covar):
-    pc = pg.partial_corr(dfCorr, x, y, covar)
-    return pc
-
-def getOutlierValue():
-    ...
-
-def calculateChiSquareGoodnesOfFit():
-    ...
-
-def calculateTStatistics():
-    ...
-
-def calculateFStatistics():
-    ...
-
-def calculateCI():
-    ...
-
-def calculateAnova():
-    ...
-
+def getOutlierValue(df, col, Q1, Q3, IQR):
+    return ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
 
