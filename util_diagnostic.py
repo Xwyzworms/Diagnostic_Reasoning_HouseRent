@@ -114,12 +114,13 @@ def getChiSquare(df, cols_params):
             relation.append(val1)
             relation.append(val2)
 
-            chiValue = calculateChiSquareIndependence()
+            chiValue = util_calculation.calculateChiSquareIndependence()
 
             relation.append(chiValue)
 
             ans.append(relation)
     return getChiSquareResult()
+
 
 def getSumAndPercentageOfMissingValues(df):
     arr_sum_miss_val = df.isna().sum().values

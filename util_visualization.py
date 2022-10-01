@@ -25,6 +25,10 @@ def drawViolinPlot():
 def drawBoxPlot():
     ...
 
+def drawHistogram(df, col):
+    fig = px.histogram(df, x=col)
+    return fig
+
 def drawHeatmapConfusion(confusionMatrix, title, tickVals ,tickText) :
     fig = px.imshow(conf, text_auto=True, aspect= "auto")
     
