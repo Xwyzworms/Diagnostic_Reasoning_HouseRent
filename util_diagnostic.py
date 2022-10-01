@@ -99,12 +99,12 @@ def getChiSquareSummary(df, cols_params):
 
 
 
-def getCramers_V(df, cols_params):
-    ans = []
-    for var1 in cols_params:
-        col = []
-        for var2 in cols_params:
-            cramer= 
+# def getCramers_V(df, cols_params):
+#     ans = []
+#     for var1 in cols_params:
+#         col = []
+#         for var2 in cols_params:
+#             cramer= 
 
 def getChiSquare(df, cols_params):
     ans = []
@@ -127,9 +127,9 @@ def diagnosticCVResult():
     ...
 
 
-def isPairsExists(pairs, pairs2):
-    for p in pairs2:
-    if( (p[0] == pairs[0] and p[1] == pairs[1]) or (p[1] == pairs[0] and p[0] == pairs[1] )):
-            return True
-    return False
+# def isPairsExists(pairs, pairs2):
+#     for p in pairs2:
+#     if( (p[0] == pairs[0] and p[1] == pairs[1]) or (p[1] == pairs[0] and p[0] == pairs[1] )):
+#             return True
+#     return False
 

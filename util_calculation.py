@@ -50,13 +50,13 @@ def _getCorellationFromProfillingReport(profile,keys):
     :param profile: the dataframe that you want to get the correlation matrix from
     :param keys: The name of the correlation matrix that you want to get
     """
-        print("Correlation Matrix for "+keys)   
-        matrix_cor=profile.description_set["correlations"][keys]
-        display(matrix_cor)
-        plt.title("Correlation Heatmap for "+keys)
-        dataplot = sns.heatmap(matrix_cor, cmap="YlGnBu", annot=True, fmt=".2f", linewidths=.5, cbar_kws={'label': 'Correlation Coefficient'})
-        display(dataplot)
-        plt.show()
+    print("Correlation Matrix for "+keys)   
+    matrix_cor=profile.description_set["correlations"][keys]
+    display(matrix_cor)
+    plt.title("Correlation Heatmap for "+keys)
+    dataplot = sns.heatmap(matrix_cor, cmap="YlGnBu", annot=True, fmt=".2f", linewidths=.5, cbar_kws={'label': 'Correlation Coefficient'})
+    display(dataplot)
+    plt.show()
         
 
 def calculateCorrelationCategorical(data):
