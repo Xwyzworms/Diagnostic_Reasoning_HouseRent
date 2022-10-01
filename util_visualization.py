@@ -12,6 +12,7 @@
 
 import plotly.express as px
 import statsmodels.api as sm
+import matplotlib.pyplot as plt
 
 
 def drawTopNNumericColumn():
@@ -36,8 +37,9 @@ def drawHistogram(df, col, bins):
     fig = px.histogram(df, x=col,nbins=bins)
     return fig
 
-def drawQQPlot(npArr):
+def drawQQPlot(npArr,title):
     fig = sm.qqplot(npArr, line='45')
+    plt.title(title)
 def drawHeatmapConfusion(confusionMatrix, title, tickVals ,tickText) :
     fig = px.imshow(confusionMatrix, text_auto=True, aspect= "auto")
     

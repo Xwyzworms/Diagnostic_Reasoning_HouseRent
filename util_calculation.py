@@ -5,6 +5,9 @@ import util_preprocessing
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pingouin as pg
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
 
 
 
@@ -75,7 +78,7 @@ def calculateCorrelationMix(data):
 
 def calculateCramers_V(data, col1, col2):
     crosstab = np.array(pd.crosstab(data[col1], data[col2], rownames=None, colnames=None))
-    chiSquare = chi2_contingency(crosstab)
+    chiSquare = stats.chi2_contingency(crosstab)
     
     observation = np.sum(crosstab)
     minimumValue = min(crosstab.shape) - 1
