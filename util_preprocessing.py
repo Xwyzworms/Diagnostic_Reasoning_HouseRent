@@ -4,6 +4,7 @@ import sklearn
 from sklearn.preprocessing import StandardScaler
 from collections import defaultdict
 from sklearn.preprocessing import  LabelEncoder
+import re
 
 
 
@@ -35,6 +36,15 @@ def profileReport(df):
 	'''
 	profile = ProfileReport(df, title='Pandas Profiling Report', html={'style':{'full_width':True}})
 	return profile
+
+def changeToFloatNums(df, numCols, NAN_VALUE):
+	df[numCols] = df[numCols].apply(lambda x: x.replace(',','.',regex=True))
+	df[numCols] = df[numCols].apply(lambda x : x.replace("Na", NAN_VALUE, regex=True))
+	return df
+
+def changeColumnsToNumbers(df, columTobeChanged):
+	return pd.to_numeric(df[columTobeChanged])
+
 
 def normalizeNumericColumn(df,num_col):
 	scaler = StandardScaler()
