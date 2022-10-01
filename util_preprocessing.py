@@ -40,6 +40,7 @@ def profileReport(df):
 def changeToFloatNums(df, numCols, NAN_VALUE):
 	df[numCols] = df[numCols].apply(lambda x: x.replace(',','.',regex=True))
 	df[numCols] = df[numCols].apply(lambda x : x.replace("Na", NAN_VALUE, regex=True))
+	df[numCols] = df[numCols].astype("float")
 	return df
 
 def changeColumnsToNumbers(df, columTobeChanged):
