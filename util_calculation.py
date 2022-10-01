@@ -78,12 +78,11 @@ def calculateCorrelationMix(data):
 
 def calculateCramers_V(data, col1, col2):
     crosstab = np.array(pd.crosstab(data[col1], data[col2], rownames=None, colnames=None))
-    chiSquare = stats.chi2_contingency(crosstab)
+    chiSquare = stats.chi2_contingency(crosstab)[0]
     
     observation = np.sum(crosstab)
     minimumValue = min(crosstab.shape) - 1
-    print(minimumValue)
-    return chiSquare / (observation * minimumValue)
+    return round(chiSquare / (observation * minimumValue),3)
 
 def getOutlierValue(df, col, Q1, Q3, IQR):
     return ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
