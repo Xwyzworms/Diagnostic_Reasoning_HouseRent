@@ -85,6 +85,6 @@ def calculateCramers_V(data, col1, col2):
     print(minimumValue)
     return chiSquare / (observation * minimumValue)
 
-
-
+def getOutlierValue(df, col, Q1, Q3, IQR):
+    return ((df[col] < (Q1 - 1.5 * IQR)) | (df[col] > (Q3 + 1.5 * IQR))).sum()
 

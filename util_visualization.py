@@ -24,8 +24,14 @@ def drawScatterplot():
 def drawViolinPlot():
     ...
 
-def drawBoxPlot():
-    ...
+def drawBoxPlot(df, col, title=''):
+    fig = px.box(df, y=col)
+    fig.update_layout(
+        title=title,
+        height=500,
+        width=800
+    )
+    fig.show()
 
 def drawHistogram(df, col, bins):
     fig = px.histogram(df, x=col,nbins=bins)
